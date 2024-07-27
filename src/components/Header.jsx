@@ -149,11 +149,11 @@ export default function Header() {
                                   <HomeIcon className="h-8 w-8 gap-16" aria-hidden="true" />
                                 </div>
                                 <div className='col-span-2  flex justify-start items-center font-cabecera'>                                 
-                                  <a href="/Slider"
+                                  <Link to="/Slider" onClick={() => closeModal(false)}
                                     className="-mx-3 block rounded-lg px-1  text-[1.2rem] font-bold leading-7 text-black hover:bg-gray-800"
                                   >
                                     Home
-                                  </a>
+                                  </Link>
                                 </div>
                                 {/* 1 fila  */}
                                 {/* 2 fila  */}
@@ -163,11 +163,11 @@ export default function Header() {
                                   <UserIcon className="h-8 w-8 gap-16" aria-hidden="true" />
                                 </div>
                                 <div className='col-span-2  flex justify-start items-center font-cabecera'> 
-                                  <a href="/About"
+                                  <Link to="/About" onClick={() => closeModal(false)}
                                       className="-mx-3 block rounded-lg px-1  text-[1.2rem] font-bold leading-7 text-black hover:bg-gray-800"
                                   >
                                     Nosotros
-                                  </a>
+                                  </Link>
                                 </div> 
                                 {/* 2 fila  */}
                                 {/* 3 fila  */}
@@ -180,11 +180,11 @@ export default function Header() {
                                   <FolderIcon className="h-8 w-8 gap-16" aria-hidden="true" />
                                 </div>
                                 <div className='col-span-2  flex justify-star items-center font-cabecera  '> 
-                                  <a href="/Category"
+                                  <Link to="/Category" onClick={() => closeModal(false)}
                                         className="-mx-3 block rounded-lg px-1  text-[1.2rem] font-bold leading-7 text-black hover:bg-gray-800"
                                   >
                                     Catalogo x Unidad
-                                  </a>
+                                  </Link>
                                 </div>
 
                                 <div className='flex justify-center items-center '> 
@@ -193,11 +193,11 @@ export default function Header() {
                                 <FolderIcon className="h-8 w-8 gap-16" aria-hidden="true" />
                                 </div>
                                 <div className='col-span-2  flex justify-start items-center font-cabecera'> 
-                                  <a href="/CategoryxMayor"
+                                  <Link to="/CategoryxMayor" onClick={() => closeModal(false)}
                                       className="-mx-3 block rounded-lg px-1 text-[1.2rem] pb-4 font-bold leading-7 text-black hover:bg-gray-800"
                                   >
                                     Catalogo x Mayor
-                                  </a>
+                                  </Link>
                                 </div> 
                                 
                                 {/* 4 fila  */}                   
