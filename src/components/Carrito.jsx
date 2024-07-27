@@ -57,7 +57,7 @@ export const Carrito = () => {
       let sex
       const productosConFormatoAmigable = productosParaWsp.join('\n') ; // Unimos todos los elementos del array en una cadena usando como separador el salto de línea
       //console.log(productosConFormatoAmigable); // Como la variable ya es una cadena, no necesitamos usar JSON.strignify() 
-      window.location.href ='https://api.whatsapp.com/send?phone=51997373676&text=Me%20interesan%20los%20siguientes%20productos%20:' + productosConFormatoAmigable // Comento esta línea para no redirigir realmente en este ejemplo
+      window.location.href ='https://api.whatsapp.com/send?phone=51962915371&text=Me%20interesan%20los%20siguientes%20productos%20:' + productosConFormatoAmigable // Comento esta línea para no redirigir realmente en este ejemplo
     }
       //`${sentence1}{Alt>}{Enter}{/Alt}${sentence2}`      
 
