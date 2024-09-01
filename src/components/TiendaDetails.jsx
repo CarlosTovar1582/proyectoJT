@@ -9792,13 +9792,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
                                   Añadir Carrito
                                 </button>
 
-                                <a
-                                  href="http://www.facebook.com/sharer.php?u=https://www.facebook.com/Jeanstovar.pe&t=pagina de desarrollo web"
-                                  target="_blank"
-                                  className="facebook"
-                                >
-                                  Facebook
-                                </a>
+                             
                                 <ul className="hidden">
                                   {artists.map((artist) => (
                                     <li key={artist.id}>
