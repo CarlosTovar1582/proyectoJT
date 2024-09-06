@@ -103,14 +103,25 @@ export const Carrito = () => {
   }, 0);*/
 
   function enviarMensaje() {
-    let productosParaWsp = cart.map((category, Idx) =>
-      category.map(
-        (item, itemIdx) =>
-          `  PRODUCTO ${item.id} : [ NOMBRE : ${item.name} PAQUETE : (${item.cantidad}) SEXO : ${item.sexo} TIPO : ${item.tipo}]`
-      )
-    );
+    /*
+    window.open(
+      "https://api.whatsapp.com/send?phone=51997373676&text=Me%20interesan%20los%20siguientes%20productos: %0A" +
+        productosConFormatoAmigable +
+        "%0A",
+      "_blank"
+    )*/
 
-    if (cart.length <= 4) {
+    window.open(
+      "https://api.whatsapp.com/send?phone=51997373676&text=Me%20interesan%20los%20siguientes%20productos: %0A" +
+        cart.map((category, Idx) =>
+          category.map(
+            (item, itemIdx) =>
+              `[Descripción : ${item.name} - Talla : (${item.talla}) - Paquete : (${item.cantidad}) - Sexo : ${item.sexo} - Tipo : ${item.tipo} +] %0A`
+          )
+        ),
+      "_blank"
+    );
+    /*  if (cart.length <= 4) {
       //console.log("Se requiere una cantidad minima de 5 productos");
       openMensaje();
     } else {
@@ -120,24 +131,31 @@ export const Carrito = () => {
       /*window.location.href =
         "https://api.whatsapp.com/send?phone=51997373676&text=Me%20interesan%20los%20siguientes%20productos%20:" +
         productosConFormatoAmigable; // Comento esta línea para no redirigir realmente en este ejemplo*/
+
+    /*
       window.open(
         "https://api.whatsapp.com/send?phone=51997373676&text=Me%20interesan%20los%20siguientes%20productos%20:" +
           productosConFormatoAmigable,
         "_blank"
       );
-    }
+    }*/
 
-    let sex;
-    const productosConFormatoAmigable = productosParaWsp.join("\n"); // Unimos todos los elementos del array en una cadena usando como separador el salto de línea
+    //let sex;
+    //const productosConFormatoAmigable = productosParaWsp.join("\n"); // Unimos todos los elementos del array en una cadena usando como separador el salto de línea
     //console.log(productosConFormatoAmigable); // Como la variable ya es una cadena, no necesitamos usar JSON.strignify()
     /*window.location.href =
       "https://api.whatsapp.com/send?phone=51997373676&text=Me%20interesan%20los%20siguientes%20productos%20:" +
       productosConFormatoAmigable; // Comento esta línea para no redirigir realmente en este ejemplo*/
+
+    /* console.log(productosConFormatoAmigable);
+
     window.open(
-      "https://api.whatsapp.com/send?phone=51997373676&text=Me%20interesan%20los%20siguientes%20productos%20:" +
-        productosConFormatoAmigable,
+      "https://api.whatsapp.com/send?phone=51997373676&text=Me%20interesan%20los%20siguientes%20productos: %0A" +
+        productosConFormatoAmigable +
+        "%0A",
       "_blank"
-    );
+    );*/
+
     /*
     Codigo Original
 
@@ -204,7 +222,7 @@ export const Carrito = () => {
         aria-live="assertive"
         className="pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6"
       >
-        <div className="flex w-full flex-col items-center space-y-4 sm:items-end">
+        <div className=" w-full flex-col items-center space-y-4 sm:items-end hidden">
           {/* Notification panel, dynamically insert this into the live region when it needs to be displayed */}
           <Transition show={show}>
             <div className="pointer-events-auto w-60 max-w-sm overflow-hidden rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 transition data-[closed]:data-[enter]:translate-y-2 data-[enter]:transform data-[closed]:opacity-0 data-[enter]:duration-300 data-[leave]:duration-100 data-[enter]:ease-out data-[leave]:ease-in data-[closed]:data-[enter]:sm:translate-x-2 data-[closed]:data-[enter]:sm:translate-y-0">
