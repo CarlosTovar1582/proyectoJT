@@ -280,8 +280,11 @@ export default function Header() {
               >
                 <Dialog.Panel className="w-92 max-w-7xl transform overflow-hidden border-slate-900 rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
                   <div className="">
-                    <div className="mx-auto max-w-1xl   sm:px-6 sm:py-10 lg:max-w-3xl lg:px-8 text-[0.8rem] sm:text-[1.0rem]     rounded-3xl text-black font-Chango ">
-                      *Se requiere ingresar como minimo 5 productos!
+                    <div
+                      className="mx-auto max-w-1xl   sm:px-6 sm:py-10 lg:max-w-3xl lg:px-8 text-[0.8rem] 
+                    sm:text-[1.0rem]   border-2 border-black  rounded-3xl text-black font-Chango "
+                    >
+                      *Se requiere ingresar como minimo 6 productos!
                     </div>
                   </div>
                 </Dialog.Panel>
