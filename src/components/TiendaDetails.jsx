@@ -92,7 +92,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "2",
             talla: "4",
-            precio: "S/.70",
+            precio: "S/.68",
           },
           {
             id: "3",
@@ -139,7 +139,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "2",
             talla: "4",
-            precio: "S/.70",
+            precio: "S/.68",
           },
           {
             id: "3",
@@ -186,7 +186,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "2",
             talla: "4",
-            precio: "S/.70",
+            precio: "S/.68",
           },
           {
             id: "3",
@@ -233,7 +233,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "2",
             talla: "4",
-            precio: "S/.70",
+            precio: "S/.68",
           },
           {
             id: "3",
@@ -280,7 +280,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "2",
             talla: "4",
-            precio: "S/.70",
+            precio: "S/.68",
           },
           {
             id: "3",
@@ -3194,6 +3194,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
           },
         ],
       },
+      /*
       {
         id: "3",
         grupo: 1,
@@ -3333,6 +3334,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
           },
         ],
       },
+      */
       {
         id: "5",
         grupo: 1,
