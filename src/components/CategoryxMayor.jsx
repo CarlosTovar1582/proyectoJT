@@ -42,7 +42,7 @@ const Categoryproductsm = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc: "https://i.postimg.cc/gJvYr8jk/Casacas-Ctegoria.png",
+    imageSrc: "https://i.postimg.cc/2STDgQCw/casaca-bozeto.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -54,8 +54,7 @@ const Categoryproductsm = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 ",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/Y9WCBTYV/Dise-o-sin-t-tulo-2-removebg-preview.png",
+    imageSrc: "https://i.postimg.cc/d0XzKnp8/overol-pantalon.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -67,8 +66,7 @@ const Categoryproductsm = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/kX0rkDfn/Dise-o-sin-t-tulo-3-removebg-preview.png",
+    imageSrc: "https://i.postimg.cc/SNqHqnTt/pantalon.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -80,8 +78,7 @@ const Categoryproductsm = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/g2jDqKvj/Dise-o-sin-t-tulo-4-removebg-preview.png",
+    imageSrc: "https://i.postimg.cc/KYdsWj3f/camisa-bozeto.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -93,8 +90,7 @@ const Categoryproductsm = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/ZqhWKbKm/Dise-o-sin-t-tulo-5-removebg-preview.png",
+    imageSrc: "https://i.postimg.cc/2jdXHzkd/overol-short-bozeto.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -106,8 +102,7 @@ const Categoryproductsm = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/mrXh3QyL/Dise-o-sin-t-tulo-6-removebg-preview.png",
+    imageSrc: "https://i.postimg.cc/J41Yv90f/short-bozeto.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -121,7 +116,7 @@ const Categoryproductsf = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc: "https://i.postimg.cc/gJvYr8jk/Casacas-Ctegoria.png",
+    imageSrc: "https://i.postimg.cc/2STDgQCw/casaca-bozeto.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -133,8 +128,7 @@ const Categoryproductsf = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/Y9WCBTYV/Dise-o-sin-t-tulo-2-removebg-preview.png",
+    imageSrc: "https://i.postimg.cc/d0XzKnp8/overol-pantalon.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -146,8 +140,7 @@ const Categoryproductsf = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/kX0rkDfn/Dise-o-sin-t-tulo-3-removebg-preview.png",
+    imageSrc: "https://i.postimg.cc/SNqHqnTt/pantalon.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -159,8 +152,7 @@ const Categoryproductsf = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/ZqhWKbKm/Dise-o-sin-t-tulo-5-removebg-preview.png",
+    imageSrc: "https://i.postimg.cc/2jdXHzkd/overol-short-bozeto.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -174,8 +166,7 @@ const Categoryproductsmc = [
     valorAbsoluto: 2,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/ZKJ8czGV/Dise-o-sin-t-tulo-7-removebg-preview-removebg-preview.png",
+    imageSrc: "https://i.postimg.cc/pVhx65hN/casaca-overol-bozeto.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -187,8 +178,7 @@ const Categoryproductsmc = [
     valorAbsoluto: 2,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/Qxx3rHL5/Dise-o-sin-t-tulo-8-removebg-preview.png",
+    imageSrc: "https://i.postimg.cc/SNc4y0fD/casaca-pantalon-bozeto.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -200,8 +190,7 @@ const Categoryproductsmc = [
     valorAbsoluto: 2,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/rmTRgSD7/Dise-o-sin-t-tulo-9-removebg-preview.png",
+    imageSrc: "https://i.postimg.cc/t4yjJrry/camisa-pantalon-bozeto.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -213,8 +202,7 @@ const Categoryproductsmc = [
     valorAbsoluto: 2,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/6pLXnnN8/Dise-o-sin-t-tulo-11-removebg-preview.png",
+    imageSrc: "https://i.postimg.cc/7ZVy2gcz/3piezas-bozeto.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -228,8 +216,7 @@ const Categoryproductsfc = [
     valorAbsoluto: 2,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/CK9pVNG6/Dise-o-sin-t-tulo-12-removebg-preview.png",
+    imageSrc: "https://i.postimg.cc/pVhx65hN/casaca-overol-bozeto.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -241,8 +228,7 @@ const Categoryproductsfc = [
     valorAbsoluto: 2,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/x8CvyK7n/Dise-o-sin-t-tulo-13-removebg-preview.png",
+    imageSrc: "https://i.postimg.cc/SNc4y0fD/casaca-pantalon-bozeto.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
