@@ -109,7 +109,7 @@ function App() {
 
               <Routes>
                 <Route path="/" />
-                <Route path="/Slider" element={<Slider />} />
+               
                 <Route path="/Tienda" element={<Tienda />} />
                 <Route path="/TiendaDetails" element={<TiendaDetails />} />
                 <Route
