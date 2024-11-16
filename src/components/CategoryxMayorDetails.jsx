@@ -3330,6 +3330,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           },
         ],
       },
+      /*
       {
         id: "3",
         grupo: 1,
@@ -3469,6 +3470,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           },
         ],
       },
+      */
       {
         id: "5",
         grupo: 1,
