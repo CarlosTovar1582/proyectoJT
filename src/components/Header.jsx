@@ -184,7 +184,7 @@ export default function Header() {
                 </div>
                 <div className="col-span-2  flex justify-start items-center font-cabecera">
                   <Link
-                    to="/Slider"
+                    to="/Home"
                     onClick={() => closeModal(false)}
                     className="-mx-3 block rounded-lg px-1  text-[1.2rem] font-bold leading-7 text-black hover:bg-gray-800"
                   >
