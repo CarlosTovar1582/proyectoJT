@@ -84,7 +84,7 @@ export default function Header() {
           <div className="lg:grid grid-cols-8  h-full  hidden  text-[1.0rem] md:text-[1.5rem]  w-full font-Montserrat-Alternates text-white ">
             <div className=" text-right content-center ... pb-0 pt-10  col-span-2  w-full mx-auto ">
               <Link
-                to="/Slider"
+                to="/Home"
                 className="leading-6 
                       px-2 py-2  hover:text-sky-700 ...  rounded-2xl "
               >
