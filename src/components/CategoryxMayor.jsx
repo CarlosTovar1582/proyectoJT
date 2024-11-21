@@ -66,7 +66,8 @@ const Categoryproductsm = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc: "https://i.postimg.cc/SNqHqnTt/pantalon.png",
+    imageSrc:
+      "https://i.postimg.cc/GpGrTsKV/Whats-App-Image-2024-11-19-at-1-58-17-PM.jpg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -325,7 +326,7 @@ export default function CategoryxMayor() {
       </div>
 
       {general === "s" ? (
-        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 border-2  border-black rounded-2xl">
+        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 border-4  border-black rounded-2xl">
           <h1
             id="products-heading"
             className="  font-Rum-Raisin text-4xl font-bold text-black text-center pb-2 rounded-3xl
@@ -395,7 +396,7 @@ export default function CategoryxMayor() {
                       <img
                         src={product.imageSrc}
                         alt={product.imageAlt}
-                        className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl"
+                        className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl border-2 border-indigo-500"
                       />
                     </div>
                     {/* text-center font-bold text-lg  */}
@@ -438,7 +439,7 @@ export default function CategoryxMayor() {
                     <img
                       src={product.imageSrc}
                       alt={product.imageAlt}
-                      className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl"
+                      className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl border-2 border-pink-300"
                     />
                   </div>
                   {/* text-center font-bold text-lg  */}
@@ -459,7 +460,7 @@ export default function CategoryxMayor() {
           )}
         </div>
       ) : (
-        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 border-2  border-black rounded-2xl">
+        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 border-4   border-black rounded-2xl">
           <h1
             id="products-heading"
             className="  font-Rum-Raisin text-4xl font-bold text-black text-center pb-2 rounded-3xl
@@ -529,7 +530,7 @@ export default function CategoryxMayor() {
                       <img
                         src={product.imageSrc}
                         alt={product.imageAlt}
-                        className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl"
+                        className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl border-2 border-indigo-500"
                       />
                     </div>
                     {/* text-center font-bold text-lg  */}
@@ -572,7 +573,7 @@ export default function CategoryxMayor() {
                     <img
                       src={product.imageSrc}
                       alt={product.imageAlt}
-                      className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl"
+                      className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl border-2 border-pink-300"
                     />
                   </div>
                   {/* text-center font-bold text-lg  */}
