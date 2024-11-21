@@ -6,7 +6,8 @@ import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 //import Logo from './components/Logo'
 import Header from "./components/Header";
 //import Header1 from './components/Header1'
-import Slider from "./components/Slider";
+//import Slider from "./components/Slider";
+import Home from "./components/Home";
 import Body from "./components/Body";
 import viteLogo from "/vite.svg";
 import Footer from "./components/Footer";
@@ -108,8 +109,8 @@ function App() {
               <Trazo />
 
               <Routes>
-                <Route path="/" />
-               
+                <Route path="/" element={<Home />} />
+                <Route path="/Home" element={<Home />} />
                 <Route path="/Tienda" element={<Tienda />} />
                 <Route path="/TiendaDetails" element={<TiendaDetails />} />
                 <Route
