@@ -2465,6 +2465,53 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           },
         ],
       },
+      {
+        id: "4",
+        grupo: "2",
+        subgrupo: "2",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.82",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.82",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.82",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.82",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.86",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.86",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.86",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.93",
+          },
+        ],
+      },
     ],
   };
 
@@ -2897,7 +2944,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         status: "delivery",
         productName: "Casaca Drill",
         href: "#",
-        imageSrc: "https://i.postimg.cc/JzkP9CT1/Casacas-Drill-02.jpg",
+        imageSrc: "https://i.postimg.cc/1zwqXczb/casaca-drill-05.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
@@ -2913,7 +2960,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/JzkP9CT1/Casacas-Drill-02.jpg",
+            imageSrc: "https://i.postimg.cc/1zwqXczb/casaca-drill-05.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -2944,7 +2991,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/gJX97T68/Casacas-Drill-01.jpg",
+            imageSrc: "https://i.postimg.cc/1tSNqnnX/casaca-drill-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -2975,7 +3022,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/7YT3LMS9/Casacas-Drill-04.jpg",
+            imageSrc: "https://i.postimg.cc/zBkHSzKj/casaca-drill-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3006,7 +3053,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/yYwThr72/Casacas-Drill-03.jpg",
+            imageSrc: "https://i.postimg.cc/1zh8knKB/casaca-drill-04.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3037,7 +3084,38 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/RC2PG0RP/Casacas-Drill-05.jpg",
+            imageSrc: "https://i.postimg.cc/vmr4bYqs/casaca-drill-06.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "6",
+            op: 0,
+            name: "Casaca Drill Forro Blanco(Plomo)",
+            codigo: "Codigo",
+            description: `Casaca`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "1",
+            subgrupo: "1",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/qqRqs8kJ/casaca-drill-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3488,7 +3566,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             op: "1",
-            name: "Casaca Jeans clasica con Capucha Forro Beige(Celeste)",
+            name: "Casaca Jeans clasica con Capucha Forro Beige (Celeste)",
             codigo: "Codigo",
             description: `Casaca`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -3497,7 +3575,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/4yS4jVbq/Casaca-Clasica-01.png",
+            imageSrc: "https://i.postimg.cc/CLtT79CT/casaca-capucha-07.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3519,7 +3597,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "2",
             op: "1",
-            name: "Casaca Jeans clasica con Capucha Forro Beige(Maiz)",
+            name: "Casaca Jeans clasica con Capucha Forro Beige (Maiz)",
             codigo: "Codigo",
             description: `Casaca`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -3528,7 +3606,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/QMhD4fZV/Casaca-Clasica-02.png",
+            imageSrc: "https://i.postimg.cc/vmsKSycj/casaca-capucha-06.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3550,7 +3628,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "3",
             op: "1",
-            name: "Casaca Jeans clasica con Capucha Forro Beige (Negro)",
+            name: "Casaca Jeans clasica con Capucha Forro Beige(Moteado)",
             codigo: "Codigo",
             description: `Casaca`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -3559,7 +3637,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/gkhPGCYn/Casaca-Clasica-03.png",
+            imageSrc: "https://i.postimg.cc/qRYSw3nc/casaca-capucha-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3581,7 +3659,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "4",
             op: "1",
-            name: "Casaca Jeans clasica con Capucha Forro Beige(Cristal)",
+            name: "Casaca Jeans clasica con Capucha Forro Beige (Cristal)",
             codigo: "Codigo",
             description: `Casaca`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -3590,7 +3668,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/9fm3tzy7/Casaca-Clasica-04.png",
+            imageSrc: "https://i.postimg.cc/25rH7xtN/casaca-capucha-04.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3609,37 +3687,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
               // More sections...
             ],
           },
-          {
-            id: "5",
-            op: "1",
-            name: "Casaca Jeans clasica con Capucha Forro Beige(Moteado)",
-            codigo: "Codigo",
-            description: `Casaca`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "1",
-            subgrupo: "5",
-            sexo: "nino",
-            href: "#",
-            imageSrc: "https://i.postimg.cc/Gpgc4v62/Casaca-Clasica-05.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
+          ////////////
+
           //color blanco casaca con capucha
 
           {
@@ -3654,8 +3703,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/4yDm7SHg/casaca-jeanscapucha-01.png",
+            imageSrc: "https://i.postimg.cc/5NWkt1mt/casaca-capucha-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3677,7 +3725,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "7",
             op: "2",
-            name: "Casaca Jeans clasica con Capucha Forro Blanco(Cristal)",
+            name: "Casaca Jeans clasica con Capucha Forro Blanco (Cristal)",
             codigo: "Codigo",
             description: `Casaca`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -3686,8 +3734,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/W4Ntkrzh/casaca-jeanscapucha-02.png",
+            imageSrc: "https://i.postimg.cc/Y9mbpyGg/casaca-capucha-08.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3718,8 +3765,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/4NcP3KmD/casaca-jeanscapucha-03.png",
+            imageSrc: "https://i.postimg.cc/NftpcDg9/casaca-capucha-05.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3741,7 +3787,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "9",
             op: "2",
-            name: "Casaca Jeans clasica con Capucha Forro Blanco(Moteado)",
+            name: "Casaca Jeans clasica con Capucha Forro Blanco (Moteado)",
             codigo: "Codigo",
             description: `Casaca`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -3750,8 +3796,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/sg9JptPK/casaca-jeanscapucha-04.png",
+            imageSrc: "https://i.postimg.cc/XY7LZvBn/casaca-capucha-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -7705,7 +7750,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/mr9y1sCx/Conjunto-Cargo-Beige-01.png",
+              "https://i.postimg.cc/Vkvz6YKt/conjunto-pantalon-cargo-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -7737,7 +7782,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/sxTYCDdW/Conjunto-Cargo-Beige-02.png",
+              "https://i.postimg.cc/D05KvDs5/conjunto-pantalon-cargo-05.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -7769,7 +7814,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/gJd8w6GR/Conjunto-Cargo-Beige-03.png",
+              "https://i.postimg.cc/8PPSKpQY/conjunto-pantalon-cargo-08.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -7801,7 +7846,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/gk6jW2WP/Conjunto-Cargo-Beige-04.png",
+              "https://i.postimg.cc/8PKVx2Tz/conjunto-pantalon-cargo-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -7835,7 +7880,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/V6Fv2r9f/Conjuntocargo-Blanco-01.png",
+              "https://i.postimg.cc/j5bVzK4Z/conjunto-pantalon-cargo-04.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -7867,7 +7912,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/FR68rGVD/Conjuntocargo-Blanco-02.png",
+              "https://i.postimg.cc/W3nygZ31/conjunto-pantalon-cargo-07.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -7899,7 +7944,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/QdbX8G9m/Conjuntocargo-Blanco-03.png",
+              "https://i.postimg.cc/dt7Wtp81/conjunto-pantalon-cargo-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -7931,7 +7976,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/9M9KfZg2/Conjuntocargo-Blanco-04.png",
+              "https://i.postimg.cc/tTS59NJW/conjunto-pantalon-cargo-06.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -8027,6 +8072,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
               // More sections...
             ],
           },
+          ////
           {
             id: "3",
             op: "2",
@@ -8039,7 +8085,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "6",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/LXrD0sS8/Conjunto-Jogger-04.png",
+            imageSrc:
+              "https://i.postimg.cc/gJmGDYkg/conjunto-pantalon-jogger-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -8070,7 +8117,72 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "6",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/Y2sRPhdf/Conjunto-Jogger-01.png",
+            imageSrc:
+              "https://i.postimg.cc/nLCnSdvD/conjunto-pantalon-jogger-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "5",
+            op: "2",
+            name: "Conjunto Jogger Forro Blanco (Moteado)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "6",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/9FyMhNw5/conjunto-pantalon-jogger-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "6",
+            op: "2",
+            name: "Conjunto Jogger Forro Blanco (Maiz)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "6",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/hGVh0DTY/conjunto-pantalon-jogger-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -8952,8 +9064,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "2",
             sexo: "nino",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/wBFnMnVL/Conjuntp3-Piezas-Cargo-01.png",
+            imageSrc: "https://i.postimg.cc/zXnbpQ0P/3piezas-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -8984,8 +9095,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "2",
             sexo: "nino",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/C1kPDtCc/Conjuntp3-Piezas-Cargo-02.png",
+            imageSrc: "https://i.postimg.cc/CxrF4HTQ/3piezas-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -9016,8 +9126,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "2",
             sexo: "nino",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/SKrjsQ3d/Conjuntp3-Piezas-Cargo-03.png",
+            imageSrc: "https://i.postimg.cc/Dztn9vzQ/3piezas-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -9048,8 +9157,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "2",
             sexo: "nino",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/bJpCxg68/Conjuntp3-Piezas-Cargo-04.png",
+            imageSrc: "https://i.postimg.cc/W3gTjBDB/3piezas-04.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -9900,30 +10008,31 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       },
       {
         id: "4",
-        grupo: 3,
+        grupo: 2,
+        color: 1,
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Conjunto Pantalon Jogger (Lila,Blanco,Rosado)",
+        productName: "Conjunto Pantalon Jogger",
         href: "#",
-        imageSrc:
-          "https://i.postimg.cc/dVKj6n9h/Conjunto-Pantalon-Nina-Forro-01.png",
+        imageSrc: "https://i.postimg.cc/cCQs0VzK/conjunto-joger-nina-01.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
           {
             id: "1",
-            name: "Conjunto Pantalon con Forro Rosado (Celeste)",
+            op: "1",
+            name: "Conjunto Pantalon Jogger con Forro Rosado (Cristal)",
             codigo: "Codigo",
             description: `Conjunto Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
             formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "3",
-            subgrupo: "1",
+            grupo: "2",
+            subgrupo: "2",
             sexo: "nina",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/dVKj6n9h/Conjunto-Pantalon-Nina-Forro-01.png",
+              "https://i.postimg.cc/cCQs0VzK/conjunto-joger-nina-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -9944,17 +10053,18 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           },
           {
             id: "2",
-            name: "Conjunto Pantalon con Forro Blanco (Celeste)",
+            op: "1",
+            name: "Conjunto Pantalon Jogger con Forro Rosado (Celeste)",
             codigo: "Codigo",
             description: `Conjunto Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
             formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "3",
-            subgrupo: "1",
+            grupo: "2",
+            subgrupo: "2",
             sexo: "nina",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/YS0GzmT4/Conjunto-Pantalon-Nina-Forro-02.png",
+              "https://i.postimg.cc/xdhYHfDJ/conjunto-joger-nina-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -9975,17 +10085,18 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           },
           {
             id: "3",
-            name: "Conjunto Pantalon con Forro Blanco (Azul Cristal)",
+            op: "1",
+            name: "Conjunto Pantalon Jogger con Forro Rosado (Moteado)",
             codigo: "Codigo",
             description: `Conjunto Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
             formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "3",
-            subgrupo: "1",
+            grupo: "2",
+            subgrupo: "2",
             sexo: "nina",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/VvpDz8Mg/Conjunto-Pantalon-Nina-Forro-03.png",
+              "https://i.postimg.cc/KjdgHSMR/conjunto-joger-nina-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -10004,19 +10115,21 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
               // More sections...
             ],
           },
+          //////////
           {
             id: "4",
-            name: "Conjunto Pantalon con Forro Rosado   (Azul Cristal)",
+            op: "2",
+            name: "Conjunto Pantalon Jogger con Forro Blanco (Celeste)",
             codigo: "Codigo",
             description: `Conjunto Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
             formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "3",
-            subgrupo: "1",
+            grupo: "2",
+            subgrupo: "2",
             sexo: "nina",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/vHyvL3hc/Conjunto-Pantalon-Nina-Forro-04.png",
+              "https://i.postimg.cc/50802YYN/conjunto-joger-nina-04.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -10037,17 +10150,18 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           },
           {
             id: "5",
-            name: "Conjunto Pantalon con Forro Rosado   (Azul Moteado)",
+            op: "2",
+            name: "Conjunto Pantalon Jogger con Forro Blanco (Moteado)",
             codigo: "Codigo",
             description: `Conjunto Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
             formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "3",
-            subgrupo: "1",
+            grupo: "2",
+            subgrupo: "2",
             sexo: "nina",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/L52Zf0SS/Conjunto-Pantalon-Nina-Forro-05.png",
+              "https://i.postimg.cc/4NfdX3Js/conjunto-joger-nina-05.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -10068,17 +10182,126 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           },
           {
             id: "6",
-            name: "Conjunto Pantalon con Forro Blanco  (Azul Moteado)",
+            op: "2",
+            name: "Conjunto Pantalon Jogger con Forro Blanco (Cristal)",
             codigo: "Codigo",
             description: `Conjunto Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
             formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "3",
-            subgrupo: "1",
+            grupo: "2",
+            subgrupo: "2",
             sexo: "nina",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/Xqr62n4k/Conjunto-Pantalon-Nina-Forro-06.png",
+              "https://i.postimg.cc/KzhGwGqX/conjunto-joger-nina-06.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
+      {
+        id: "5",
+        grupo: 1,
+        color: 0,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Conjunto Overol Falda con polo",
+        href: "#",
+        imageSrc: "https://i.postimg.cc/D0Nvq0fR/overol-falda-01.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: 0,
+            name: "Conjunto Overol Falda  (Maiz)",
+            codigo: "Codigo",
+            description: `Conjunto Overol`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "1",
+            subgrupo: "3",
+            sexo: "nina",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/D0Nvq0fR/overol-falda-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: 0,
+            name: "Conjunto Overol Falda  (Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto Overol`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "1",
+            subgrupo: "3",
+            sexo: "nina",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/zBX86KV9/overol-falda-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: 0,
+            name: "Conjunto Overol Falda (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto Overol`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "1",
+            subgrupo: "3",
+            sexo: "nina",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/NMJBcFXL/overol-falda-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -10441,7 +10664,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         </nav>
       </div>
       <main
-        className="mx-auto max-w-2xl px-4 py-24 sm:px-6 lg:max-w-7xl lg:px-8 border-2 border-slate-800 rounded-3xl"
+        className="mx-auto max-w-2xl px-4 py-24 sm:px-6 lg:max-w-7xl lg:px-8 border-4 border-slate-800 rounded-3xl"
         aria-labelledby="order-history-heading  "
       >
         {" "}
