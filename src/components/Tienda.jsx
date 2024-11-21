@@ -66,7 +66,8 @@ const Categoryproductsm = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc: "https://i.postimg.cc/SNqHqnTt/pantalon.png",
+    imageSrc:
+      "https://i.postimg.cc/GpGrTsKV/Whats-App-Image-2024-11-19-at-1-58-17-PM.jpg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -233,6 +234,7 @@ const Categoryproductsfc = [
       "Person using a pen to cross a task off a productivity paper card.",
   },
 ];
+
 export default function Tienda() {
   const [general, setGeneral] = useState("s");
   const [value, setValue] = useState("m");
@@ -324,7 +326,7 @@ export default function Tienda() {
       </div>
 
       {general === "s" ? (
-        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 border-2  border-black rounded-2xl">
+        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 border-4 border-black rounded-2xl">
           <h1
             id="products-heading"
             className="  font-Rum-Raisin text-4xl font-bold text-black text-center pb-2 rounded-3xl
@@ -394,7 +396,7 @@ export default function Tienda() {
                       <img
                         src={product.imageSrc}
                         alt={product.imageAlt}
-                        className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl"
+                        className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl border-2 border-indigo-500"
                       />
                     </div>
                     {/* text-center font-bold text-lg  */}
@@ -437,7 +439,7 @@ export default function Tienda() {
                     <img
                       src={product.imageSrc}
                       alt={product.imageAlt}
-                      className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl"
+                      className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl border-2 border-pink-300"
                     />
                   </div>
                   {/* text-center font-bold text-lg  */}
@@ -458,7 +460,7 @@ export default function Tienda() {
           )}
         </div>
       ) : (
-        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 border-2  border-black rounded-2xl">
+        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 border-4  border-black rounded-2xl">
           <h1
             id="products-heading"
             className="  font-Rum-Raisin text-4xl font-bold text-black text-center pb-2 rounded-3xl
@@ -506,7 +508,7 @@ export default function Tienda() {
             <div className="card">
               {/* SSection masculino */}
 
-              <div className="pl-4 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8  pt-10">
+              <div className="pl-4 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8  pt-10 ">
                 {Categoryproductsmc.map((product) => (
                   <Link
                     to={
@@ -519,7 +521,7 @@ export default function Tienda() {
                     }
                     key={product.id}
                     href={product.href}
-                    className="group hover:scale-110 hover:text-sky-500 "
+                    className="group hover:scale-110 hover:text-sky-500  "
                   >
                     <div
                       className=" aspect-h-1  overflow-hidden h-auto w-auto sm:h-60  sm:w-40  md:h-80  md:w-72 lg:h-80  lg:w-72
@@ -528,7 +530,7 @@ export default function Tienda() {
                       <img
                         src={product.imageSrc}
                         alt={product.imageAlt}
-                        className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl"
+                        className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl border-2 border-indigo-500"
                       />
                     </div>
                     {/* text-center font-bold text-lg  */}
@@ -549,7 +551,7 @@ export default function Tienda() {
               {/* SSection masculino */}
             </div>
           ) : (
-            <div className="pl-4 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8 font-cabecera pt-10">
+            <div className="pl-4 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8 font-cabecera pt-10 ">
               {Categoryproductsfc.map((product) => (
                 <Link
                   to={
@@ -571,7 +573,7 @@ export default function Tienda() {
                     <img
                       src={product.imageSrc}
                       alt={product.imageAlt}
-                      className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl"
+                      className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl border-2 border-pink-300"
                     />
                   </div>
                   {/* text-center font-bold text-lg  */}
