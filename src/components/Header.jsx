@@ -68,6 +68,8 @@ export default function Header() {
   }
   function closeMensaje() {
     setShow(false);
+    //https://i.postimg.cc/sxySNBTh/Logo-Finaljt.png
+    //https://i.postimg.cc/6Qwdr6Dc/LOGO-TOVAR.png
   }
 
   return (
@@ -75,8 +77,8 @@ export default function Header() {
       <div className="grid grid-cols-4 gap-0 text-black   ">
         <div className="col-span-3 lg:col-span-2 content-center ... pl-4 md:pl-4 ">
           <img
-            src="https://i.postimg.cc/sxySNBTh/Logo-Finaljt.png"
-            className="rounded-full object-fill "
+            src="https://i.postimg.cc/6Qwdr6Dc/LOGO-TOVAR.png"
+            className="rounded-2xl object-fill "
             alt="Flowbite Logo"
           />
         </div>
