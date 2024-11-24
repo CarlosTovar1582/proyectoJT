@@ -42,7 +42,7 @@ function classNames(...classes) {
 
 export default function TiendaDetails({ id, name, cantidad }) {
   const [radio, setRadio] = useState("1");
-  const [activeIndex, setActiveIndex] = useState(2);
+  const [activeIndex, setActiveIndex] = useState(false);
   const [colores, setColores] = useState();
 
   const [precioUnico, setPrecioUnico] = useState();
@@ -2463,94 +2463,97 @@ export default function TiendaDetails({ id, name, cantidad }) {
   }
 
   function onClickHandler(index, grupo, subgrupo, valor, sexo) {
-    console.log(titulo);
+    //console.log(grupo);
+    //console.log(subgrupo);
+    //console.log(index);
+    //alert("Hola");
+    //console.log(titulo);
     setActiveIndex(index);
-    setGrupo(grupo);
-    setSubGrupo(subgrupo);
+    //setGrupo(grupo);
+    //setSubGrupo(subgrupo);
     //console.log(valor);
-    document.getElementById("idmensaje").innerText = "";
+    //document.getElementById("idmensaje").innerText = "";
     //console.log(index);
     //console.log(grupo);
     //console.log(subgrupo);
     costo = "";
-    if (titulo === "") {
-      document.getElementById("idmensaje").innerText =
-        "* Se Requiere Seleccionar un Producto";
-    } else {
-      if (valor === "1") {
-        if (sexo === "1") {
-          //document.getElementById("idcosto").innerText = "";
-          TallasSeleccionm.seleccion.map((image) =>
-            image.grupo === grupo && image.subgrupo === subgrupo
-              ? image.details.map(
-                  (item, itemIdx) =>
-                    item.talla == index
-                      ? //document.getElementById("idcosto").innerText =
-                        //item.precio
-                        item.precio === "S/.0"
-                        ? ocultarDatos("0")
-                        : mostrarDatos(item.precio)
-                      : null
-                  //(costo = 20)
-                )
-              : null
-          );
-        } else {
-          document.getElementById("idcosto").innerText = "";
-          TallasSeleccionf.seleccion.map((image) =>
-            image.grupo === grupo && image.subgrupo === subgrupo
-              ? image.details.map(
-                  (item, itemIdx) =>
-                    item.talla == index
-                      ? //document.getElementById("idcosto").innerText =
-                        //item.precio
-                        item.precio === "S/.0"
-                        ? ocultarDatos("0")
-                        : mostrarDatos(item.precio)
-                      : null
-                  //(costo = 20)
-                )
-              : null
-          );
-        }
+
+    //---------------------------------
+    if (valor === "1") {
+      if (sexo === "1") {
+        //document.getElementById("idcosto").innerText = "";
+        TallasSeleccionm.seleccion.map((image) =>
+          image.grupo == grupo && image.subgrupo == subgrupo
+            ? image.details.map(
+                (item, itemIdx) =>
+                  item.talla == index
+                    ? //document.getElementById("idcosto").innerText =
+                      //item.precio
+                      item.precio === "S/.0"
+                      ? ocultarDatos("0")
+                      : mostrarDatos(item.precio)
+                    : null
+                //(costo = 20)
+              )
+            : null
+        );
       } else {
-        if (sexo === "1") {
-          document.getElementById("idcosto").innerText = "";
-          TallasSeleccionmc.seleccion.map((image) =>
-            image.grupo === grupo && image.subgrupo === subgrupo
-              ? image.details.map(
-                  (item, itemIdx) =>
-                    item.talla == index
-                      ? //document.getElementById("idcosto").innerText =
-                        //item.precio
-                        item.precio === "S/.0"
-                        ? ocultarDatos("0")
-                        : mostrarDatos(item.precio)
-                      : null
-                  //(costo = 20)
-                )
-              : null
-          );
-        } else {
-          document.getElementById("idcosto").innerText = "";
-          TallasSeleccionfc.seleccion.map((image) =>
-            image.grupo === grupo && image.subgrupo === subgrupo
-              ? image.details.map(
-                  (item, itemIdx) =>
-                    item.talla == index
-                      ? //document.getElementById("idcosto").innerText =
-                        //item.precio
-                        item.precio === "S/.0"
-                        ? ocultarDatos("0")
-                        : mostrarDatos(item.precio)
-                      : null
-                  //(costo = 20)
-                )
-              : null
-          );
-        }
+        document.getElementById("idcosto").innerText = "";
+        TallasSeleccionf.seleccion.map((image) =>
+          image.grupo == grupo && image.subgrupo == subgrupo
+            ? image.details.map(
+                (item, itemIdx) =>
+                  item.talla == index
+                    ? //document.getElementById("idcosto").innerText =
+                      //item.precio
+                      item.precio === "S/.0"
+                      ? ocultarDatos("0")
+                      : mostrarDatos(item.precio)
+                    : null
+                //(costo = 20)
+              )
+            : null
+        );
+      }
+    } else {
+      if (sexo === "1") {
+        document.getElementById("idcosto").innerText = "";
+        TallasSeleccionmc.seleccion.map((image) =>
+          image.grupo == grupo && image.subgrupo == subgrupo
+            ? image.details.map(
+                (item, itemIdx) =>
+                  item.talla == index
+                    ? //document.getElementById("idcosto").innerText =
+                      //item.precio
+                      item.precio === "S/.0"
+                      ? ocultarDatos("0")
+                      : mostrarDatos(item.precio)
+                    : null
+                //(costo = 20)
+              )
+            : null
+        );
+      } else {
+        document.getElementById("idcosto").innerText = "";
+        TallasSeleccionfc.seleccion.map((image) =>
+          image.grupo == grupo && image.subgrupo == subgrupo
+            ? image.details.map(
+                (item, itemIdx) =>
+                  item.talla == index
+                    ? //document.getElementById("idcosto").innerText =
+                      //item.precio
+                      item.precio === "S/.0"
+                      ? ocultarDatos("0")
+                      : mostrarDatos(item.precio)
+                    : null
+                //(costo = 20)
+              )
+            : null
+        );
       }
     }
+
+    //---------------------------------
   }
   function onLoadHandler() {
     //document.getElementById("idtallas").style.visibility = "hidden";
@@ -3009,7 +3012,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Casaca Clasica sin Capucha ",
+        productName: "Casaca Jeans sin Capucha ",
         href: "#",
         imageSrc: "https://i.postimg.cc/xjxxNXV6/casaca-subcategoria-01.png",
         imageAlt:
@@ -8070,6 +8073,280 @@ export default function TiendaDetails({ id, name, cantidad }) {
           },
         ],
       },
+      {
+        id: "13",
+        grupo: 2,
+        color: 1,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Conjunto Pantalon Clasico con Capucha",
+        href: "#",
+        imageSrc:
+          "https://i.postimg.cc/bNyTg508/conjunto-pantalon-clasico-08.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: "1",
+            name: "Conjunto Pantalon Clasico Forro Beige (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/bNyTg508/conjunto-pantalon-clasico-08.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: "1",
+            name: "Conjunto Pantalon Clasico Forro Beige (Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/yNccshhv/conjunto-pantalon-clasico-07.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: "1",
+            name: "Conjunto Pantalon Clasico Forro Beige (Moteado)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/3JqvGfnt/conjunto-pantalon-clasico-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "4",
+            op: "1",
+            name: "Conjunto Pantalon Clasico Forro Beige (Maiz)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/d1n7V5hm/conjunto-pantalon-clasico-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+
+          //////////////////
+          {
+            id: "5",
+            op: "2",
+            name: "Conjunto Pantalon Clasico Forro Blanco (Maiz)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/gk1xjX25/conjunto-pantalon-clasico-06.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "6",
+            op: "2",
+            name: "Conjunto Pantalon Clasico Forro Blanco(Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/YSz0ddzK/conjunto-pantalon-clasico-05.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "7",
+            op: "2",
+            name: "Conjunto Pantalon Clasico Forro Blanco (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/hjCjBhY2/conjunto-pantalon-clasico-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "8",
+            op: "2",
+            name: "Conjunto Pantalon Clasico Forro Blanco (Moteado)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/qvf70PmH/conjunto-pantalon-clasico-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
 
       ///////////////////////////////////////
 
@@ -10303,17 +10580,20 @@ export default function TiendaDetails({ id, name, cantidad }) {
   function ocultaTallas() {
     //document.getElementById("idtallas").style.visibility = "hidden";
   }
-  function openModal(a, b) {
+  function openModal(a, b, c) {
     /*document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("idtallas").style.visibility = "hidden";
     });*/
 
     //document.getElementById("idtallas").style.display = "hidden";
     //document.getElementById("idtallas").style.visibility = "hidden";
+    //console.log(a);
+    //console.log(b);
 
     setColores(b);
     setIsOpen(true);
     setParametro(a); //aqui se aplica el cambio de las tallas
+    setGrupo(c); //aqui se aplica el cambio de las tallas
     setRadio("1");
 
     setTitulo("");
@@ -10404,15 +10684,18 @@ export default function TiendaDetails({ id, name, cantidad }) {
   function valorSeleccionado(item) {
     //alert("entro");
     //console.log("ok");
+    //console.log(item)
+    //console.log(activeIndex);
+    //let indexado = activeIndex;
+    setActiveIndex(true);
+    //const [activeIndex, setActiveIndex] = useState(true);
 
-    //console.log(item.name)
-    setActiveIndex(0);
     setTitulo(item.name);
-    setParametroDetalle(true);
+    //setParametroDetalle(true);
     setParametroDetalle(item);
 
     document.getElementById("idtitulo").style.visibility = "visible";
-    document.getElementById("idcosto").innerText = "";
+    //document.getElementById("idcosto").innerText = "";
     document.getElementById("idmensaje").innerText = "";
     document.getElementById("idtallas").style.visibility = "visible";
     //setActiveIndex(2);
@@ -10624,7 +10907,9 @@ export default function TiendaDetails({ id, name, cantidad }) {
                       <div className="flex justify-center items-center  rounded-3xl bg-black group-hover:opacity-50 hover:scale-110 hover:text-sky-500  border-2 border-blue-700">
                         <button
                           type="button"
-                          onClick={() => openModal(order.id, order.color)}
+                          onClick={() =>
+                            openModal(order.id, order.color, order.grupo)
+                          }
                           className=""
                         >
                           <img
@@ -10655,7 +10940,9 @@ export default function TiendaDetails({ id, name, cantidad }) {
                       <div className="flex justify-center items-center  rounded-3xl bg-black group-hover:opacity-50 hover:scale-110 hover:text-sky-500  border-2 border-blue-700">
                         <button
                           type="button"
-                          onClick={() => openModal(order.id, order.color)}
+                          onClick={() =>
+                            openModal(order.id, order.color, order.grupo)
+                          }
                           className=""
                         >
                           <img
@@ -10684,7 +10971,9 @@ export default function TiendaDetails({ id, name, cantidad }) {
                     <div className="flex justify-center items-center  rounded-3xl bg-black group-hover:opacity-50 hover:scale-110 hover:text-sky-500  border-2 border-blue-700">
                       <button
                         type="button"
-                        onClick={() => openModal(order.id, order.color)}
+                        onClick={() =>
+                          openModal(order.id, order.color, order.grupo)
+                        }
                         className=""
                       >
                         <img
@@ -10712,7 +11001,9 @@ export default function TiendaDetails({ id, name, cantidad }) {
                     <div className="flex justify-center items-center  rounded-3xl bg-black group-hover:opacity-50 hover:scale-110 hover:text-sky-500  border-2 border-blue-700">
                       <button
                         type="button"
-                        onClick={() => openModal(order.id, order.color)}
+                        onClick={() =>
+                          openModal(order.id, order.color, order.grupo)
+                        }
                         className=""
                       >
                         <img
@@ -11475,8 +11766,8 @@ export default function TiendaDetails({ id, name, cantidad }) {
                                 onClick={() =>
                                   onClickHandler(
                                     2,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
+                                    grupo,
+                                    parametro,
                                     params.valorAbsoluto,
                                     params.sexo
                                   )
@@ -11488,8 +11779,8 @@ export default function TiendaDetails({ id, name, cantidad }) {
                                 onClick={() =>
                                   onClickHandler(
                                     4,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
+                                    grupo,
+                                    parametro,
                                     params.valorAbsoluto,
                                     params.sexo
                                   )
@@ -11501,8 +11792,8 @@ export default function TiendaDetails({ id, name, cantidad }) {
                                 onClick={() =>
                                   onClickHandler(
                                     6,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
+                                    grupo,
+                                    parametro,
                                     params.valorAbsoluto,
                                     params.sexo
                                   )
@@ -11514,8 +11805,8 @@ export default function TiendaDetails({ id, name, cantidad }) {
                                 onClick={() =>
                                   onClickHandler(
                                     8,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
+                                    grupo,
+                                    parametro,
                                     params.valorAbsoluto,
                                     params.sexo
                                   )
@@ -11527,8 +11818,8 @@ export default function TiendaDetails({ id, name, cantidad }) {
                                 onClick={() =>
                                   onClickHandler(
                                     10,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
+                                    grupo,
+                                    parametro,
                                     params.valorAbsoluto,
                                     params.sexo
                                   )
@@ -11540,8 +11831,8 @@ export default function TiendaDetails({ id, name, cantidad }) {
                                 onClick={() =>
                                   onClickHandler(
                                     12,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
+                                    grupo,
+                                    parametro,
                                     params.valorAbsoluto,
                                     params.sexo
                                   )
@@ -11553,8 +11844,8 @@ export default function TiendaDetails({ id, name, cantidad }) {
                                 onClick={() =>
                                   onClickHandler(
                                     14,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
+                                    grupo,
+                                    parametro,
                                     params.valorAbsoluto,
                                     params.sexo
                                   )
@@ -11566,8 +11857,8 @@ export default function TiendaDetails({ id, name, cantidad }) {
                                 onClick={() =>
                                   onClickHandler(
                                     16,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
+                                    grupo,
+                                    parametro,
                                     params.valorAbsoluto,
                                     params.sexo
                                   )
@@ -11728,7 +12019,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
                                           cantidad: calculo,
                                           talla: activeIndex,
                                           sexo: parametroDetalle.sexo,
-                                          tipo: "xTienda",
+                                          tipo: "xT",
                                         },
                                       ]);
                                       document.getElementById(
