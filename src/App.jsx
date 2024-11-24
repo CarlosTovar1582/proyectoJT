@@ -128,14 +128,6 @@ function App() {
               <Footer />
               <Author />
             </BrowserRouter>
-            <FloatingWhatsApp
-              className=""
-              phoneNumber="938164916"
-              statusMessage="Linea"
-              accountName="Confecciones Jeans Tovar"
-              chatMessage="Bienvenido en que podemos ayudarlo"
-              avatar="https://i.postimg.cc/NjzqPpxv/LogoJT.png"
-            />
           </ShoppingCartProvider>
         </div>
       </main>
@@ -161,6 +153,16 @@ export default App;
             G.T.
           </button>
       
+
+ <FloatingWhatsApp
+              className=""
+              phoneNumber="938164916"
+              statusMessage="Linea"
+              accountName="Confecciones Jeans Tovar"
+              chatMessage="Bienvenido en que podemos ayudarlo"
+              avatar="https://i.postimg.cc/NjzqPpxv/LogoJT.png"
+            />
+
       
       */
 }
