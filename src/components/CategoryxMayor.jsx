@@ -42,7 +42,7 @@ const Categoryproductsm = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc: "https://i.postimg.cc/2STDgQCw/casaca-bozeto.png",
+    imageSrc: "https://i.postimg.cc/zBGkP5zr/casaca-final-05.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -117,7 +117,7 @@ const Categoryproductsf = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc: "https://i.postimg.cc/2STDgQCw/casaca-bozeto.png",
+    imageSrc: "https://i.postimg.cc/zBGkP5zr/casaca-final-05.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -167,7 +167,7 @@ const Categoryproductsmc = [
     valorAbsoluto: 2,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc: "https://i.postimg.cc/pVhx65hN/casaca-overol-bozeto.png",
+    imageSrc: "https://i.postimg.cc/7htwQWKN/Conjunto-Overol-01.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -179,7 +179,8 @@ const Categoryproductsmc = [
     valorAbsoluto: 2,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc: "https://i.postimg.cc/SNc4y0fD/casaca-pantalon-bozeto.png",
+    imageSrc:
+      "https://i.postimg.cc/8Pm63bg6/Conjunto-Clasico-Pantalon-Blanco-01.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -191,7 +192,7 @@ const Categoryproductsmc = [
     valorAbsoluto: 2,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc: "https://i.postimg.cc/t4yjJrry/camisa-pantalon-bozeto.png",
+    imageSrc: "https://i.postimg.cc/SRMTjg7q/Conjunto-Camisa-Bermuda-01.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -203,7 +204,8 @@ const Categoryproductsmc = [
     valorAbsoluto: 2,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc: "https://i.postimg.cc/7ZVy2gcz/3piezas-bozeto.png",
+    imageSrc:
+      "https://i.postimg.cc/d1V0zmhj/Conjunto3-Piezas-Strechc-Jeans-01.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -217,7 +219,7 @@ const Categoryproductsfc = [
     valorAbsoluto: 2,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc: "https://i.postimg.cc/pVhx65hN/casaca-overol-bozeto.png",
+    imageSrc: "https://i.postimg.cc/vBP5jtvW/Conjunto-Overol-Lola-01.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -229,7 +231,8 @@ const Categoryproductsfc = [
     valorAbsoluto: 2,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc: "https://i.postimg.cc/SNc4y0fD/casaca-pantalon-bozeto.png",
+    imageSrc:
+      "https://i.postimg.cc/dVKj6n9h/Conjunto-Pantalon-Nina-Forro-01.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -390,23 +393,21 @@ export default function CategoryxMayor() {
                     className="group hover:scale-110 hover:text-sky-500 "
                   >
                     <div
-                      className=" aspect-h-1  overflow-hidden h-auto w-auto sm:h-60  sm:w-40  md:h-80  md:w-72 lg:h-80  lg:w-72
+                      className=" aspect-h-1  overflow-hidden mx-auto
                       rounded-3xl sm:aspect-h-3 sm:aspect-w-2 flex items-center justify-center  "
                     >
                       <img
                         src={product.imageSrc}
                         alt={product.imageAlt}
-                        className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl border-2 border-indigo-500"
+                        className="h-auto  w-auto  object-cover object-center group-hover:opacity-75 rounded-3xl border-2 border-indigo-300"
                       />
                     </div>
                     {/* text-center font-bold text-lg  */}
                     <div className="rounded-2xl font-Rum-Raisin text-black mt-4 justify-between  text-gray-900  ">
-                      <p className="text-left  text-[1.4rem] sm:text-2xl ">
+                      <p className="text-center  text-[1.4rem] sm:text-2xl ">
                         {product.name}
                       </p>
-                      <p className="text-left text-blue-800  text-[1.1rem]  rounded-3xl sm:text-[1.2rem]">
-                        {product.tallas}
-                      </p>
+                      <p className="text-left text-blue-800  text-[1.1rem]  rounded-3xl sm:text-[1.2rem]"></p>
                     </div>
                     <p className="mt-1 text-sm italic text-gray-500">
                       {product.description}
@@ -433,7 +434,7 @@ export default function CategoryxMayor() {
                   className="group hover:scale-110 hover:text-sky-500 "
                 >
                   <div
-                    className=" aspect-h-1  overflow-hidden h-auto w-auto sm:h-60  sm:w-40  md:h-80  md:w-72 lg:h-80  lg:w-72
+                    className=" aspect-h-1  overflow-hidden mx-auto
                       rounded-3xl sm:aspect-h-3 sm:aspect-w-2 flex items-center justify-center  "
                   >
                     <img
@@ -444,12 +445,10 @@ export default function CategoryxMayor() {
                   </div>
                   {/* text-center font-bold text-lg  */}
                   <div className="rounded-2xl font-Rum-Raisin  text-black mt-4 justify-between  text-gray-900  ">
-                    <p className="text-left  text-[1.4rem] sm:text-2xl ">
+                    <p className="text-center  text-[1.4rem] sm:text-2xl ">
                       {product.name}
                     </p>
-                    <p className="text-left text-blue-800  text-[1.1rem]  rounded-3xl sm:text-[1.2rem]">
-                      {product.tallas}
-                    </p>
+                    <p className="text-left text-blue-800  text-[1.1rem]  rounded-3xl sm:text-[1.2rem]"></p>
                   </div>
                   <p className="mt-1 text-sm italic text-gray-500">
                     {product.description}
@@ -524,7 +523,7 @@ export default function CategoryxMayor() {
                     className="group hover:scale-110 hover:text-sky-500 "
                   >
                     <div
-                      className=" aspect-h-1  overflow-hidden h-auto w-auto sm:h-60  sm:w-40  md:h-80  md:w-72 lg:h-80  lg:w-72
+                      className=" aspect-h-1  overflow-hidden mx-auto
                       rounded-3xl sm:aspect-h-3 sm:aspect-w-2 flex items-center justify-center  "
                     >
                       <img
@@ -535,12 +534,10 @@ export default function CategoryxMayor() {
                     </div>
                     {/* text-center font-bold text-lg  */}
                     <div className="rounded-2xl font-Rum-Raisin text-black mt-4 justify-between  text-gray-900  ">
-                      <p className="text-left  text-[1.4rem] sm:text-2xl ">
+                      <p className="text-center  text-[1.4rem] sm:text-2xl ">
                         {product.name}
                       </p>
-                      <p className="text-left text-blue-800  text-[1.1rem]  rounded-3xl sm:text-[1.2rem]">
-                        {product.tallas}
-                      </p>
+                      <p className="text-left text-blue-800  text-[1.1rem]  rounded-3xl sm:text-[1.2rem]"></p>
                     </div>
                     <p className="mt-1 text-sm italic text-gray-500">
                       {product.description}
@@ -567,7 +564,7 @@ export default function CategoryxMayor() {
                   className="group hover:scale-110 hover:text-sky-500 "
                 >
                   <div
-                    className=" aspect-h-1  overflow-hidden h-auto w-auto sm:h-60  sm:w-40  md:h-80  md:w-72 lg:h-80  lg:w-72
+                    className=" aspect-h-1  overflow-hidden mx-auto
                       rounded-3xl sm:aspect-h-3 sm:aspect-w-2 flex items-center justify-center  "
                   >
                     <img
@@ -578,12 +575,10 @@ export default function CategoryxMayor() {
                   </div>
                   {/* text-center font-bold text-lg  */}
                   <div className="rounded-2xl font-Rum-Raisin  text-black mt-4 justify-between  text-gray-900  ">
-                    <p className="text-left  text-[1.4rem] sm:text-2xl ">
+                    <p className="text-center  text-[1.4rem] sm:text-2xl ">
                       {product.name}
                     </p>
-                    <p className="text-left text-blue-800  text-[1.1rem]  rounded-3xl sm:text-[1.2rem]">
-                      {product.tallas}
-                    </p>
+                    <p className="text-left text-blue-800  text-[1.1rem]  rounded-3xl sm:text-[1.2rem]"></p>
                   </div>
                   <p className="mt-1 text-sm italic text-gray-500">
                     {product.description}
