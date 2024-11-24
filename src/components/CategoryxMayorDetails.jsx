@@ -3143,7 +3143,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Casaca Clasica sin Capucha ",
+        productName: "Casaca Jeans sin Capucha ",
         href: "#",
         imageSrc: "https://i.postimg.cc/xjxxNXV6/casaca-subcategoria-01.png",
         imageAlt:
@@ -8203,6 +8203,280 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           },
         ],
       },
+      {
+        id: "13",
+        grupo: 2,
+        color: 1,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Conjunto Pantalon Clasico con Capucha",
+        href: "#",
+        imageSrc:
+          "https://i.postimg.cc/bNyTg508/conjunto-pantalon-clasico-08.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: "1",
+            name: "Conjunto Pantalon Clasico Forro Beige (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/bNyTg508/conjunto-pantalon-clasico-08.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: "1",
+            name: "Conjunto Pantalon Clasico Forro Beige (Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/yNccshhv/conjunto-pantalon-clasico-07.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: "1",
+            name: "Conjunto Pantalon Clasico Forro Beige (Moteado)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/3JqvGfnt/conjunto-pantalon-clasico-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "4",
+            op: "1",
+            name: "Conjunto Pantalon Clasico Forro Beige (Maiz)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/d1n7V5hm/conjunto-pantalon-clasico-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+
+          //////////////////
+          {
+            id: "5",
+            op: "2",
+            name: "Conjunto Pantalon Clasico Forro Blanco (Maiz)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/gk1xjX25/conjunto-pantalon-clasico-06.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "6",
+            op: "2",
+            name: "Conjunto Pantalon Clasico Forro Blanco(Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/YSz0ddzK/conjunto-pantalon-clasico-05.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "7",
+            op: "2",
+            name: "Conjunto Pantalon Clasico Forro Blanco (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/hjCjBhY2/conjunto-pantalon-clasico-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "8",
+            op: "2",
+            name: "Conjunto Pantalon Clasico Forro Blanco (Moteado)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "7",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/qvf70PmH/conjunto-pantalon-clasico-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
 
       ///////////////////////////////////////
 
@@ -11859,7 +12133,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
                                           cantidad: calculo,
                                           talla: activeIndex,
                                           sexo: parametroDetalle.sexo,
-                                          tipo: "xMayor",
+                                          tipo: "xM",
                                         },
                                       ]);
                                       document.getElementById(
