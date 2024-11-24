@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="pt-20  ">
       <div
-        className="grid grid-cols-4   w-full h-full   px-1 py-5 font-cabecera text-[1.1rem] border-2 border-red-600
+        className="grid grid-cols-4   w-full h-full   px-1 py-5 font-cabecera text-[1.1rem] 
        bg-black text-white sm:text-2xl md:text-3xl lg:text-4xl"
       >
         <div className="col-span-2   font-extrabold flex justify-center ">
