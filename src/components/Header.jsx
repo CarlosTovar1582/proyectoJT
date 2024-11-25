@@ -77,7 +77,7 @@ export default function Header() {
       <div className="grid grid-cols-4 gap-0 text-black   ">
         <div className="col-span-3 lg:col-span-2 content-center ... pl-4 md:pl-4 ">
           <img
-            src="https://i.postimg.cc/6Qwdr6Dc/LOGO-TOVAR.png"
+            src="https://i.postimg.cc/L5hKS2zd/LOGO-TOVAR.png"
             className="rounded-2xl object-fill "
             alt="Flowbite Logo"
           />
