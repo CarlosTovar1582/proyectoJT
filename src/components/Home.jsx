@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 
 import { Link } from "react-router-dom";
 
@@ -43,7 +43,7 @@ export default function Home() {
           <div className="shrink-0">
             <img
               alt=""
-              src="https://i.postimg.cc/tTb8JN12/flecha3.png"
+              src="https://i.postimg.cc/3JHYTGN3/flechita-removebg-preview-1.png"
               className="size-10 rounded-full bg-white"
             />
           </div>
