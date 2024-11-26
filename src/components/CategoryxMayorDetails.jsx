@@ -319,7 +319,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "6",
         grupo: "2",
-        subgrupo: "1",
+        subgrupo: "6",
         details: [
           {
             id: "1",
@@ -366,7 +366,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "7",
         grupo: "2",
-        subgrupo: "2",
+        subgrupo: "7",
         details: [
           {
             id: "1",
@@ -415,7 +415,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "8",
         grupo: "3",
-        subgrupo: "1",
+        subgrupo: "8",
         details: [
           {
             id: "1",
@@ -462,7 +462,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "9",
         grupo: "3",
-        subgrupo: "2",
+        subgrupo: "9",
         details: [
           {
             id: "1",
@@ -509,7 +509,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "10",
         grupo: "3",
-        subgrupo: "3",
+        subgrupo: "10",
         details: [
           {
             id: "1",
@@ -556,7 +556,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "11",
         grupo: "3",
-        subgrupo: "4",
+        subgrupo: "11",
         details: [
           {
             id: "1",
@@ -604,7 +604,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "12",
         grupo: "4",
-        subgrupo: "1",
+        subgrupo: "12",
         details: [
           {
             id: "1",
@@ -652,7 +652,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "13",
         grupo: "5",
-        subgrupo: "1",
+        subgrupo: "13",
         details: [
           {
             id: "1",
@@ -700,7 +700,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "14",
         grupo: "6",
-        subgrupo: "1",
+        subgrupo: "14",
         details: [
           {
             id: "1",
@@ -747,7 +747,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "15",
         grupo: "6",
-        subgrupo: "2",
+        subgrupo: "15",
         details: [
           {
             id: "1",
@@ -794,7 +794,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "16",
         grupo: "6",
-        subgrupo: "3",
+        subgrupo: "16",
         details: [
           {
             id: "1",
@@ -991,7 +991,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "4",
         grupo: "2",
-        subgrupo: "1",
+        subgrupo: "4",
         details: [
           {
             id: "1",
@@ -1038,7 +1038,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "5",
         grupo: "2",
-        subgrupo: "2",
+        subgrupo: "5",
         details: [
           {
             id: "1",
@@ -1087,7 +1087,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "6",
         grupo: "3",
-        subgrupo: "1",
+        subgrupo: "6",
         details: [
           {
             id: "1",
@@ -1134,7 +1134,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "9",
         grupo: "3",
-        subgrupo: "2",
+        subgrupo: "9",
         details: [
           {
             id: "1",
@@ -1181,7 +1181,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "10",
         grupo: "3",
-        subgrupo: "3",
+        subgrupo: "10",
         details: [
           {
             id: "1",
@@ -1228,7 +1228,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "11",
         grupo: "3",
-        subgrupo: "4",
+        subgrupo: "11",
         details: [
           {
             id: "1",
@@ -1276,7 +1276,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "12",
         grupo: "4",
-        subgrupo: "1",
+        subgrupo: "12",
         details: [
           {
             id: "1",
@@ -1324,7 +1324,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "13",
         grupo: "5",
-        subgrupo: "1",
+        subgrupo: "13",
         details: [
           {
             id: "1",
@@ -1372,7 +1372,54 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "14",
         grupo: "6",
-        subgrupo: "1",
+        subgrupo: "14",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.33",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.33",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.33",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.33",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.34",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.34",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.0",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.0",
+          },
+        ],
+      },
+      {
+        id: "7",
+        grupo: "4",
+        subgrupo: "7",
         details: [
           {
             id: "1",
@@ -1615,7 +1662,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "5",
         grupo: "2",
-        subgrupo: "1",
+        subgrupo: "5",
         details: [
           {
             id: "1",
@@ -1662,7 +1709,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "6",
         grupo: "2",
-        subgrupo: "2",
+        subgrupo: "6",
         details: [
           {
             id: "1",
@@ -1709,7 +1756,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "7",
         grupo: "2",
-        subgrupo: "3",
+        subgrupo: "7",
         details: [
           {
             id: "1",
@@ -1756,7 +1803,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "8",
         grupo: "2",
-        subgrupo: "4",
+        subgrupo: "8",
         details: [
           {
             id: "1",
@@ -1803,7 +1850,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "9",
         grupo: "2",
-        subgrupo: "5",
+        subgrupo: "9",
         details: [
           {
             id: "1",
@@ -1850,7 +1897,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "10",
         grupo: "2",
-        subgrupo: "6",
+        subgrupo: "10",
         details: [
           {
             id: "1",
@@ -1897,7 +1944,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "11",
         grupo: "2",
-        subgrupo: "7",
+        subgrupo: "11",
         details: [
           {
             id: "1",
@@ -1944,7 +1991,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "12",
         grupo: "2",
-        subgrupo: "8",
+        subgrupo: "12",
         details: [
           {
             id: "1",
@@ -1991,7 +2038,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "13",
         grupo: "2",
-        subgrupo: "9",
+        subgrupo: "13",
         details: [
           {
             id: "1",
@@ -2039,7 +2086,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "14",
         grupo: "3",
-        subgrupo: "1",
+        subgrupo: "14",
         details: [
           {
             id: "1",
@@ -2086,7 +2133,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "15",
         grupo: "3",
-        subgrupo: "2",
+        subgrupo: "15",
         details: [
           {
             id: "1",
@@ -2133,7 +2180,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "16",
         grupo: "3",
-        subgrupo: "3",
+        subgrupo: "16",
         details: [
           {
             id: "1",
@@ -2178,9 +2225,9 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         ],
       },
       {
-        id: "16",
+        id: "17",
         grupo: "4",
-        subgrupo: "1",
+        subgrupo: "17",
         details: [
           {
             id: "1",
@@ -2225,9 +2272,9 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         ],
       },
       {
-        id: "17",
+        id: "18",
         grupo: "4",
-        subgrupo: "2",
+        subgrupo: "18",
         details: [
           {
             id: "1",
@@ -2272,9 +2319,9 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         ],
       },
       {
-        id: "18",
+        id: "19",
         grupo: "4",
-        subgrupo: "3",
+        subgrupo: "19",
         details: [
           {
             id: "1",
@@ -2421,7 +2468,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "3",
         grupo: "2",
-        subgrupo: "1",
+        subgrupo: "3",
         details: [
           {
             id: "1",
@@ -2468,7 +2515,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       {
         id: "4",
         grupo: "2",
-        subgrupo: "2",
+        subgrupo: "4",
         details: [
           {
             id: "1",
@@ -2518,9 +2565,10 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
   function mostrarTituloRadio(valor) {
     setRadio(valor);
     setTitulo("");
-    console.log(costo);
+    //console.log(costo);
     setPrecioUnico("");
-    document.getElementById("idcosto").innerText = "";
+
+    //document.getElementById("idcosto").innerText = "";
     //document.getElementById("idcosto").innerText = "";
     //costo = "";
     /*console.log(radio);
@@ -2600,94 +2648,105 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
   }
 
   function onClickHandler(index, grupo, subgrupo, valor, sexo) {
-    console.log(titulo);
-    setActiveIndex(index);
-    setGrupo(grupo);
-    setSubGrupo(subgrupo);
-    //console.log(valor);
-    document.getElementById("idmensaje").innerText = "";
+    //console.log(grupo);
+    //console.log(subgrupo);
     //console.log(index);
     //console.log(grupo);
     //console.log(subgrupo);
+    //alert("Hola");
+    //console.log(titulo);
+    //setActiveIndex(index);
+    //setGrupo(grupo);
+    //setSubGrupo(subgrupo);
+    //console.log(valor);
+    //document.getElementById("idmensaje").innerText = "";
+    //console.log(index);
+    //console.log(grupo);
+    //console.log(subgrupo);
+    //setActiveIndex(index);
+    setGrupo(grupo);
+    setSubGrupo(subgrupo);
     costo = "";
-    if (titulo === "") {
-      document.getElementById("idmensaje").innerText =
-        "* Se Requiere Seleccionar un Producto";
-    } else {
-      if (valor === "1") {
-        if (sexo === "1") {
-          //document.getElementById("idcosto").innerText = "";
-          TallasSeleccionm.seleccion.map((image) =>
-            image.grupo === grupo && image.subgrupo === subgrupo
-              ? image.details.map(
-                  (item, itemIdx) =>
-                    item.talla == index
-                      ? //document.getElementById("idcosto").innerText =
-                        //item.precio
-                        item.precio === "S/.0"
-                        ? ocultarDatos("0")
-                        : mostrarDatos(item.precio)
-                      : null
-                  //(costo = 20)
-                )
-              : null
-          );
-        } else {
-          document.getElementById("idcosto").innerText = "";
-          TallasSeleccionf.seleccion.map((image) =>
-            image.grupo === grupo && image.subgrupo === subgrupo
-              ? image.details.map(
-                  (item, itemIdx) =>
-                    item.talla == index
-                      ? //document.getElementById("idcosto").innerText =
-                        //item.precio
-                        item.precio === "S/.0"
-                        ? ocultarDatos("0")
-                        : mostrarDatos(item.precio)
-                      : null
-                  //(costo = 20)
-                )
-              : null
-          );
-        }
+    //console.log(grupo);
+    //console.log(subgrupo);
+    //console.log(index);
+
+    //---------------------------------
+    if (valor === "1") {
+      if (sexo === "1") {
+        //document.getElementById("idcosto").innerText = "";
+        TallasSeleccionm.seleccion.map((image) =>
+          image.grupo == grupo && image.subgrupo == subgrupo
+            ? image.details.map(
+                (item, itemIdx) =>
+                  item.talla == index
+                    ? //document.getElementById("idcosto").innerText =
+                      //item.precio
+                      item.precio === "S/.0"
+                      ? ocultarDatos("0")
+                      : mostrarDatos(item.precio)
+                    : null
+                //(costo = 20)
+              )
+            : null
+        );
       } else {
-        if (sexo === "1") {
-          document.getElementById("idcosto").innerText = "";
-          TallasSeleccionmc.seleccion.map((image) =>
-            image.grupo === grupo && image.subgrupo === subgrupo
-              ? image.details.map(
-                  (item, itemIdx) =>
-                    item.talla == index
-                      ? //document.getElementById("idcosto").innerText =
-                        //item.precio
-                        item.precio === "S/.0"
-                        ? ocultarDatos("0")
-                        : mostrarDatos(item.precio)
-                      : null
-                  //(costo = 20)
-                )
-              : null
-          );
-        } else {
-          document.getElementById("idcosto").innerText = "";
-          TallasSeleccionfc.seleccion.map((image) =>
-            image.grupo === grupo && image.subgrupo === subgrupo
-              ? image.details.map(
-                  (item, itemIdx) =>
-                    item.talla == index
-                      ? //document.getElementById("idcosto").innerText =
-                        //item.precio
-                        item.precio === "S/.0"
-                        ? ocultarDatos("0")
-                        : mostrarDatos(item.precio)
-                      : null
-                  //(costo = 20)
-                )
-              : null
-          );
-        }
+        document.getElementById("idcosto").innerText = "";
+        TallasSeleccionf.seleccion.map((image) =>
+          image.grupo == grupo && image.subgrupo == subgrupo
+            ? image.details.map(
+                (item, itemIdx) =>
+                  item.talla == index
+                    ? //document.getElementById("idcosto").innerText =
+                      //item.precio
+                      item.precio === "S/.0"
+                      ? ocultarDatos("0")
+                      : mostrarDatos(item.precio)
+                    : null
+                //(costo = 20)
+              )
+            : null
+        );
+      }
+    } else {
+      if (sexo === "1") {
+        document.getElementById("idcosto").innerText = "";
+        TallasSeleccionmc.seleccion.map((image) =>
+          image.grupo == grupo && image.subgrupo == subgrupo
+            ? image.details.map(
+                (item, itemIdx) =>
+                  item.talla == index
+                    ? //document.getElementById("idcosto").innerText =
+                      //item.precio
+                      item.precio === "S/.0"
+                      ? ocultarDatos("0")
+                      : mostrarDatos(item.precio)
+                    : null
+                //(costo = 20)
+              )
+            : null
+        );
+      } else {
+        document.getElementById("idcosto").innerText = "";
+        TallasSeleccionfc.seleccion.map((image) =>
+          image.grupo == grupo && image.subgrupo == subgrupo
+            ? image.details.map(
+                (item, itemIdx) =>
+                  item.talla == index
+                    ? //document.getElementById("idcosto").innerText =
+                      //item.precio
+                      item.precio === "S/.0"
+                      ? ocultarDatos("0")
+                      : mostrarDatos(item.precio)
+                    : null
+                //(costo = 20)
+              )
+            : null
+        );
       }
     }
+
+    //---------------------------------
   }
   function onLoadHandler() {
     //document.getElementById("idtallas").style.visibility = "hidden";
@@ -2752,7 +2811,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       document.getElementById("idmensaje").innerText =
         "* Se Requiere Seleccionar un Producto ";
     } else {
-      if (precioUnico !== 0 && activeIndex !== 0) {
+      if (tallita !== 0) {
         setCart([...cart, artists]);
 
         setTitulo("");
@@ -2763,6 +2822,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         costo = "";
         document.getElementById("idmensaje").innerText = "";
         openMensaje();
+        setTallita(0);
 
         //setIsOpen(true)
       } else {
@@ -2776,13 +2836,13 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
 
   const onChange = (ev) => {
     //save your value here with state variable
-    console.log(ev.target.value);
+    //console.log(ev.target.value);
     setRadioValue(ev.target.value);
   };
 
   const onChangeNumero = (ev) => {
     //save your value here with state variable
-    console.log(ev.target.value);
+    //onsole.log(ev.target.value);
     setLabel(ev.target.value);
   };
 
@@ -2793,6 +2853,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
 
   const params = useParams();
   const [value, setValue] = useState("");
+  const [tallita, setTallita] = useState("2");
 
   //const [name, setName] = useState('');
   //const [artists, setArtists] = useState([]);
@@ -10708,7 +10769,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
   function ocultaTallas() {
     //document.getElementById("idtallas").style.visibility = "hidden";
   }
-  function openModal(a, b) {
+  function openModal(a, b, c) {
     /*document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("idtallas").style.visibility = "hidden";
     });*/
@@ -10716,9 +10777,11 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
     //document.getElementById("idtallas").style.display = "hidden";
     //document.getElementById("idtallas").style.visibility = "hidden";
 
+    setTallita(2);
     setColores(b);
     setIsOpen(true);
     setParametro(a); //aqui se aplica el cambio de las tallas
+    setGrupo(c); //aqui se aplica el cambio de las tallas
     setRadio("1");
 
     setTitulo("");
@@ -10811,13 +10874,13 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
     //console.log("ok");
 
     //console.log(item.name)
-    setActiveIndex(0);
+    setActiveIndex(true);
     setTitulo(item.name);
-    setParametroDetalle(true);
+    //setParametroDetalle(true);
     setParametroDetalle(item);
 
     document.getElementById("idtitulo").style.visibility = "visible";
-    document.getElementById("idcosto").innerText = "";
+    //document.getElementById("idcosto").innerText = "";
     document.getElementById("idmensaje").innerText = "";
     document.getElementById("idtallas").style.visibility = "visible";
     //setActiveIndex(2);
@@ -11029,7 +11092,9 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
                       <div className="flex justify-center items-center  rounded-3xl bg-black group-hover:opacity-50 hover:scale-110 hover:text-sky-500  border-2 border-blue-700">
                         <button
                           type="button"
-                          onClick={() => openModal(order.id, order.color)}
+                          onClick={() =>
+                            openModal(order.id, order.color, order.grupo)
+                          }
                           className=""
                         >
                           <img
@@ -11060,7 +11125,9 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
                       <div className="flex justify-center items-center  rounded-3xl bg-black group-hover:opacity-50 hover:scale-110 hover:text-sky-500  border-2 border-blue-700">
                         <button
                           type="button"
-                          onClick={() => openModal(order.id, order.color)}
+                          onClick={() =>
+                            openModal(order.id, order.color, order.grupo)
+                          }
                           className=""
                         >
                           <img
@@ -11089,7 +11156,9 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
                     <div className="flex justify-center items-center  rounded-3xl bg-black group-hover:opacity-50 hover:scale-110 hover:text-sky-500  border-2 border-blue-700">
                       <button
                         type="button"
-                        onClick={() => openModal(order.id, order.color)}
+                        onClick={() =>
+                          openModal(order.id, order.color, order.grupo)
+                        }
                         className=""
                       >
                         <img
@@ -11117,7 +11186,9 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
                     <div className="flex justify-center items-center  rounded-3xl bg-black group-hover:opacity-50 hover:scale-110 hover:text-sky-500  border-2 border-blue-700">
                       <button
                         type="button"
-                        onClick={() => openModal(order.id, order.color)}
+                        onClick={() =>
+                          openModal(order.id, order.color, order.grupo)
+                        }
                         className=""
                       >
                         <img
@@ -11875,110 +11946,201 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
 
                             <h2 className="pb-2 font-bold">Tallas</h2>
                             <div className="flex" id="idtallas">
-                              <Container
-                                active={activeIndex === 2}
-                                onClick={() =>
-                                  onClickHandler(
-                                    2,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="2"
-                              ></Container>
-                              <Container
-                                active={activeIndex === 4}
-                                onClick={() =>
-                                  onClickHandler(
-                                    4,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="4"
-                              ></Container>
-                              <Container
-                                active={activeIndex === 6}
-                                onClick={() =>
-                                  onClickHandler(
-                                    6,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="6"
-                              ></Container>
-                              <Container
-                                active={activeIndex === 8}
-                                onClick={() =>
-                                  onClickHandler(
-                                    8,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="8"
-                              ></Container>
-                              <Container
-                                active={activeIndex === 10}
-                                onClick={() =>
-                                  onClickHandler(
-                                    10,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="10"
-                              ></Container>
-                              <Container
-                                active={activeIndex === 12}
-                                onClick={() =>
-                                  onClickHandler(
-                                    12,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="12"
-                              ></Container>
-                              <Container
-                                active={activeIndex === 14}
-                                onClick={() =>
-                                  onClickHandler(
-                                    14,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="14"
-                              ></Container>
-                              <Container
-                                active={activeIndex === 16}
-                                onClick={() =>
-                                  onClickHandler(
-                                    16,
-                                    parametroDetalle.grupo,
-                                    parametroDetalle.subgrupo,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="16"
-                              ></Container>
+                              {/*AQUITALLAS */}
+                              <div className="grid grid-cols-8 items-center justify-center">
+                                <div className="col-span-1 pr-2   pl-2 ">
+                                  <input
+                                    id="default-radio-1"
+                                    type="checkbox"
+                                    value="2"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        2,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "2"}
+                                  ></input>
+                                </div>
+                                <div className="col-span-1 pl-2 pr-2">
+                                  {" "}
+                                  <input
+                                    id="default-radio-2"
+                                    type="checkbox"
+                                    value="4"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        4,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "4"}
+                                  ></input>
+                                </div>
+                                <div className="col-span-1 pl-2 pr-2">
+                                  {" "}
+                                  <input
+                                    id="default-radio-3"
+                                    type="checkbox"
+                                    value="6"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        6,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "6"}
+                                  ></input>
+                                </div>
+                                <div className="col-span-1 pl-2 pr-2">
+                                  {" "}
+                                  <input
+                                    id="default-radio-4"
+                                    type="checkbox"
+                                    value="8"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        8,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "8"}
+                                  ></input>
+                                </div>
+                                <div className="col-span-1 pl-2 pr-2">
+                                  {" "}
+                                  <input
+                                    id="default-radio-5"
+                                    type="checkbox"
+                                    value="10"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        10,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "10"}
+                                  ></input>
+                                </div>
+                                <div className="col-span-1 pl-2 pr-2">
+                                  {" "}
+                                  <input
+                                    id="default-radio-6"
+                                    type="checkbox"
+                                    value="12"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        12,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "12"}
+                                  ></input>
+                                </div>
+                                <div className="col-span-1 pl-2 pr-2">
+                                  {" "}
+                                  <input
+                                    id="default-radio-7"
+                                    type="checkbox"
+                                    value="14"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        14,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "14"}
+                                  ></input>
+                                </div>
+                                <div className="col-span-1 pl-2 pr-2">
+                                  {" "}
+                                  <input
+                                    id="default-radio-8"
+                                    type="checkbox"
+                                    value="16"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  items-center justify-center
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        16,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "16"}
+                                  ></input>
+                                </div>
+
+                                <div className=" text-center">2</div>
+                                <div className=" text-center">4</div>
+                                <div className=" text-center">6</div>
+                                <div className=" text-center">8</div>
+                                <div className=" text-center">10</div>
+                                <div className=" text-center">12</div>
+                                <div className=" text-center">14</div>
+                                <div className=" text-center">16</div>
+                              </div>
                             </div>
                             <h3 className="pb-2 font-bold">Precio</h3>
 
@@ -12131,7 +12293,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
                                           id: "y" + nextId++,
                                           name: parametroDetalle.name,
                                           cantidad: calculo,
-                                          talla: activeIndex,
+                                          talla: tallita,
                                           sexo: parametroDetalle.sexo,
                                           tipo: "xM",
                                         },
