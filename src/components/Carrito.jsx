@@ -88,7 +88,7 @@ export const Carrito = () => {
     localStorage.setItem('cart',JSON.stringify(cart))
   },[])*/
 
-  console.log(cart);
+  //console.log(cart);
   //const sumarCarrito = cart.reduce((acc, curr) => {
   //return acc + curr;
   //}, 0);
