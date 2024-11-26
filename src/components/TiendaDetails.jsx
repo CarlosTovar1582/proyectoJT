@@ -319,7 +319,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "6",
         grupo: "2",
-        subgrupo: "1",
+        subgrupo: "6",
         details: [
           {
             id: "1",
@@ -366,7 +366,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "7",
         grupo: "2",
-        subgrupo: "2",
+        subgrupo: "7",
         details: [
           {
             id: "1",
@@ -415,7 +415,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "8",
         grupo: "3",
-        subgrupo: "1",
+        subgrupo: "8",
         details: [
           {
             id: "1",
@@ -462,7 +462,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "9",
         grupo: "3",
-        subgrupo: "2",
+        subgrupo: "9",
         details: [
           {
             id: "1",
@@ -509,7 +509,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "10",
         grupo: "3",
-        subgrupo: "3",
+        subgrupo: "10",
         details: [
           {
             id: "1",
@@ -556,7 +556,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "11",
         grupo: "3",
-        subgrupo: "4",
+        subgrupo: "11",
         details: [
           {
             id: "1",
@@ -604,7 +604,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "12",
         grupo: "4",
-        subgrupo: "1",
+        subgrupo: "12",
         details: [
           {
             id: "1",
@@ -652,7 +652,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "13",
         grupo: "5",
-        subgrupo: "1",
+        subgrupo: "13",
         details: [
           {
             id: "1",
@@ -700,7 +700,101 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "14",
         grupo: "6",
-        subgrupo: "1",
+        subgrupo: "14",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.55",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.55",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.55",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.55",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.60",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.60",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.60",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.65",
+          },
+        ],
+      },
+      {
+        id: "15",
+        grupo: "6",
+        subgrupo: "15",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.55",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.55",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.55",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.55",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.60",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.60",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.60",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.65",
+          },
+        ],
+      },
+      {
+        id: "16",
+        grupo: "6",
+        subgrupo: "16",
         details: [
           {
             id: "1",
@@ -897,7 +991,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "4",
         grupo: "2",
-        subgrupo: "1",
+        subgrupo: "4",
         details: [
           {
             id: "1",
@@ -944,7 +1038,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "5",
         grupo: "2",
-        subgrupo: "2",
+        subgrupo: "5",
         details: [
           {
             id: "1",
@@ -993,7 +1087,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "6",
         grupo: "3",
-        subgrupo: "1",
+        subgrupo: "6",
         details: [
           {
             id: "1",
@@ -1040,7 +1134,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "9",
         grupo: "3",
-        subgrupo: "2",
+        subgrupo: "9",
         details: [
           {
             id: "1",
@@ -1087,7 +1181,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "10",
         grupo: "3",
-        subgrupo: "3",
+        subgrupo: "10",
         details: [
           {
             id: "1",
@@ -1134,7 +1228,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "11",
         grupo: "3",
-        subgrupo: "4",
+        subgrupo: "11",
         details: [
           {
             id: "1",
@@ -1183,7 +1277,54 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "13",
         grupo: "4",
-        subgrupo: "1",
+        subgrupo: "13",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.65",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.65",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.65",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.65",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.70",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.70",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.70",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.75",
+          },
+        ],
+      },
+      {
+        id: "7",
+        grupo: "4",
+        subgrupo: "7",
         details: [
           {
             id: "1",
@@ -1231,7 +1372,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "14",
         grupo: "6",
-        subgrupo: "1",
+        subgrupo: "14",
         details: [
           {
             id: "1",
@@ -1474,7 +1615,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "5",
         grupo: "2",
-        subgrupo: "1",
+        subgrupo: "5",
         details: [
           {
             id: "1",
@@ -1521,7 +1662,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "6",
         grupo: "2",
-        subgrupo: "2",
+        subgrupo: "6",
         details: [
           {
             id: "1",
@@ -1568,7 +1709,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "7",
         grupo: "2",
-        subgrupo: "3",
+        subgrupo: "7",
         details: [
           {
             id: "1",
@@ -1615,7 +1756,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "8",
         grupo: "2",
-        subgrupo: "4",
+        subgrupo: "8",
         details: [
           {
             id: "1",
@@ -1662,7 +1803,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "9",
         grupo: "2",
-        subgrupo: "5",
+        subgrupo: "9",
         details: [
           {
             id: "1",
@@ -1709,7 +1850,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "10",
         grupo: "2",
-        subgrupo: "6",
+        subgrupo: "10",
         details: [
           {
             id: "1",
@@ -1756,7 +1897,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "11",
         grupo: "2",
-        subgrupo: "7",
+        subgrupo: "11",
         details: [
           {
             id: "1",
@@ -1803,7 +1944,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "12",
         grupo: "2",
-        subgrupo: "8",
+        subgrupo: "12",
         details: [
           {
             id: "1",
@@ -1850,7 +1991,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "13",
         grupo: "2",
-        subgrupo: "9",
+        subgrupo: "13",
         details: [
           {
             id: "1",
@@ -1898,7 +2039,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "14",
         grupo: "3",
-        subgrupo: "1",
+        subgrupo: "14",
         details: [
           {
             id: "1",
@@ -1945,7 +2086,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "15",
         grupo: "3",
-        subgrupo: "2",
+        subgrupo: "15",
         details: [
           {
             id: "1",
@@ -1992,7 +2133,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "16",
         grupo: "3",
-        subgrupo: "3",
+        subgrupo: "16",
         details: [
           {
             id: "1",
@@ -2037,57 +2178,11 @@ export default function TiendaDetails({ id, name, cantidad }) {
         ],
       },
       //grupo 4
-      {
-        id: "16",
-        grupo: "4",
-        subgrupo: "1",
-        details: [
-          {
-            id: "1",
-            talla: "2",
-            precio: "S/.136",
-          },
-          {
-            id: "2",
-            talla: "4",
-            precio: "S/.136",
-          },
-          {
-            id: "3",
-            talla: "6",
-            precio: "S/.136",
-          },
-          {
-            id: "4",
-            talla: "8",
-            precio: "S/.140",
-          },
-          {
-            id: "5",
-            talla: "10",
-            precio: "S/.145",
-          },
-          {
-            id: "6",
-            talla: "12",
-            precio: "S/.145",
-          },
-          {
-            id: "7",
-            talla: "14",
-            precio: "S/.145",
-          },
-          {
-            id: "8",
-            talla: "16",
-            precio: "S/.150",
-          },
-        ],
-      },
+
       {
         id: "17",
         grupo: "4",
-        subgrupo: "2",
+        subgrupo: "17",
         details: [
           {
             id: "1",
@@ -2134,7 +2229,54 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "18",
         grupo: "4",
-        subgrupo: "3",
+        subgrupo: "18",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.136",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.136",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.136",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.140",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.145",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.145",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.145",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.150",
+          },
+        ],
+      },
+      {
+        id: "19",
+        grupo: "4",
+        subgrupo: "19",
         details: [
           {
             id: "1",
@@ -2278,11 +2420,58 @@ export default function TiendaDetails({ id, name, cantidad }) {
           },
         ],
       },
+      {
+        id: "5",
+        grupo: "1",
+        subgrupo: "5",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.110",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.110",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.115",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.115",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.120",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.120",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.125",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.125",
+          },
+        ],
+      },
       //
       {
         id: "3",
         grupo: "2",
-        subgrupo: "1",
+        subgrupo: "3",
         details: [
           {
             id: "1",
@@ -2329,7 +2518,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "4",
         grupo: "2",
-        subgrupo: "2",
+        subgrupo: "4",
         details: [
           {
             id: "1",
@@ -2377,10 +2566,10 @@ export default function TiendaDetails({ id, name, cantidad }) {
   };
 
   function mostrarTituloRadio(valor) {
-    console.log(valor);
+    //console.log(valor);
     setRadio(valor);
     setTitulo("");
-    console.log(costo);
+    //console.log(costo);
     setPrecioUnico("");
     //document.getElementById("idcosto").innerText = "No Disponible";
     //document.getElementById("idCarrito").style.visibility = "hidden";
@@ -2461,14 +2650,16 @@ export default function TiendaDetails({ id, name, cantidad }) {
   function onclickLoad(valortalla) {
     document.getElementById("idtallas").style.visibility = "hidden";
   }
-
+  //SELECCION
   function onClickHandler(index, grupo, subgrupo, valor, sexo) {
     //console.log(grupo);
     //console.log(subgrupo);
     //console.log(index);
+    //console.log(grupo);
+    //console.log(subgrupo);
     //alert("Hola");
     //console.log(titulo);
-    setActiveIndex(index);
+    //setActiveIndex(index);
     //setGrupo(grupo);
     //setSubGrupo(subgrupo);
     //console.log(valor);
@@ -2476,7 +2667,13 @@ export default function TiendaDetails({ id, name, cantidad }) {
     //console.log(index);
     //console.log(grupo);
     //console.log(subgrupo);
+    //setActiveIndex(index);
+    setGrupo(grupo);
+    setSubGrupo(subgrupo);
     costo = "";
+    //console.log(grupo);
+    //console.log(subgrupo);
+    //console.log(index);
 
     //---------------------------------
     if (valor === "1") {
@@ -2614,14 +2811,15 @@ export default function TiendaDetails({ id, name, cantidad }) {
       //console.log(artists)
     }
    */
-    console.log(titulo);
-    console.log(precioUnico);
+
+    //console.log(titulo);
+    //console.log(precioUnico);
 
     if (titulo === "") {
       document.getElementById("idmensaje").innerText =
         "* Se Requiere Seleccionar un Producto ";
     } else {
-      if (precioUnico !== 0 && activeIndex !== 0) {
+      if (tallita !== 0) {
         setCart([...cart, artists]);
 
         setTitulo("");
@@ -2631,7 +2829,9 @@ export default function TiendaDetails({ id, name, cantidad }) {
 
         costo = "";
         document.getElementById("idmensaje").innerText = "";
+
         openMensaje();
+        setTallita(0);
 
         //setIsOpen(true)
       } else {
@@ -2645,13 +2845,13 @@ export default function TiendaDetails({ id, name, cantidad }) {
 
   const onChange = (ev) => {
     //save your value here with state variable
-    console.log(ev.target.value);
+    //console.log(ev.target.value);
     setRadioValue(ev.target.value);
   };
 
   const onChangeNumero = (ev) => {
     //save your value here with state variable
-    console.log(ev.target.value);
+    //console.log(ev.target.value);
     setLabel(ev.target.value);
   };
 
@@ -2662,6 +2862,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
 
   const params = useParams();
   const [value, setValue] = useState("");
+  const [tallita, setTallita] = useState("2");
 
   //const [name, setName] = useState('');
   //const [artists, setArtists] = useState([]);
@@ -10589,7 +10790,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
     //document.getElementById("idtallas").style.visibility = "hidden";
     //console.log(a);
     //console.log(b);
-
+    setTallita(2);
     setColores(b);
     setIsOpen(true);
     setParametro(a); //aqui se aplica el cambio de las tallas
@@ -10681,6 +10882,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
     setShow(false);
   }
   //const [selectedColor, setSelectedColor] = useState(item.id[0])
+  //SELECCION
   function valorSeleccionado(item) {
     //alert("entro");
     //console.log("ok");
@@ -10688,6 +10890,8 @@ export default function TiendaDetails({ id, name, cantidad }) {
     //console.log(activeIndex);
     //let indexado = activeIndex;
     setActiveIndex(true);
+    //onClickHandler(2, grupo, parametro, 1, 1);
+
     //const [activeIndex, setActiveIndex] = useState(true);
 
     setTitulo(item.name);
@@ -11760,111 +11964,203 @@ export default function TiendaDetails({ id, name, cantidad }) {
                             </div>
 
                             <h2 className="pb-2 font-bold">Tallas</h2>
+
                             <div className="flex" id="idtallas">
-                              <Container
-                                active={activeIndex === 2}
-                                onClick={() =>
-                                  onClickHandler(
-                                    2,
-                                    grupo,
-                                    parametro,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="2"
-                              ></Container>
-                              <Container
-                                active={activeIndex === 4}
-                                onClick={() =>
-                                  onClickHandler(
-                                    4,
-                                    grupo,
-                                    parametro,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="4"
-                              ></Container>
-                              <Container
-                                active={activeIndex === 6}
-                                onClick={() =>
-                                  onClickHandler(
-                                    6,
-                                    grupo,
-                                    parametro,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="6"
-                              ></Container>
-                              <Container
-                                active={activeIndex === 8}
-                                onClick={() =>
-                                  onClickHandler(
-                                    8,
-                                    grupo,
-                                    parametro,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="8"
-                              ></Container>
-                              <Container
-                                active={activeIndex === 10}
-                                onClick={() =>
-                                  onClickHandler(
-                                    10,
-                                    grupo,
-                                    parametro,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="10"
-                              ></Container>
-                              <Container
-                                active={activeIndex === 12}
-                                onClick={() =>
-                                  onClickHandler(
-                                    12,
-                                    grupo,
-                                    parametro,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="12"
-                              ></Container>
-                              <Container
-                                active={activeIndex === 14}
-                                onClick={() =>
-                                  onClickHandler(
-                                    14,
-                                    grupo,
-                                    parametro,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="14"
-                              ></Container>
-                              <Container
-                                active={activeIndex === 16}
-                                onClick={() =>
-                                  onClickHandler(
-                                    16,
-                                    grupo,
-                                    parametro,
-                                    params.valorAbsoluto,
-                                    params.sexo
-                                  )
-                                }
-                                id="16"
-                              ></Container>
+                              {/*AQUITALLAS */}
+                              <div className="grid grid-cols-8 items-center justify-center">
+                                <div className="col-span-1 pr-2   pl-2 ">
+                                  <input
+                                    id="default-radio-1"
+                                    type="checkbox"
+                                    value="2"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        2,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "2"}
+                                  ></input>
+                                </div>
+                                <div className="col-span-1 pl-2 pr-2">
+                                  {" "}
+                                  <input
+                                    id="default-radio-2"
+                                    type="checkbox"
+                                    value="4"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        4,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "4"}
+                                  ></input>
+                                </div>
+                                <div className="col-span-1 pl-2 pr-2">
+                                  {" "}
+                                  <input
+                                    id="default-radio-3"
+                                    type="checkbox"
+                                    value="6"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        6,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "6"}
+                                  ></input>
+                                </div>
+                                <div className="col-span-1 pl-2 pr-2">
+                                  {" "}
+                                  <input
+                                    id="default-radio-4"
+                                    type="checkbox"
+                                    value="8"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        8,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "8"}
+                                  ></input>
+                                </div>
+                                <div className="col-span-1 pl-2 pr-2">
+                                  {" "}
+                                  <input
+                                    id="default-radio-5"
+                                    type="checkbox"
+                                    value="10"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        10,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "10"}
+                                  ></input>
+                                </div>
+                                <div className="col-span-1 pl-2 pr-2">
+                                  {" "}
+                                  <input
+                                    id="default-radio-6"
+                                    type="checkbox"
+                                    value="12"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        12,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "12"}
+                                  ></input>
+                                </div>
+                                <div className="col-span-1 pl-2 pr-2">
+                                  {" "}
+                                  <input
+                                    id="default-radio-7"
+                                    type="checkbox"
+                                    value="14"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        14,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "14"}
+                                  ></input>
+                                </div>
+                                <div className="col-span-1 pl-2 pr-2">
+                                  {" "}
+                                  <input
+                                    id="default-radio-8"
+                                    type="checkbox"
+                                    value="16"
+                                    name="default-radio"
+                                    className="w-6 h-6 text-blue-600  items-center justify-center
+                                      bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 
+                                      focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                                    onChange={(e) =>
+                                      onClickHandler(
+                                        16,
+                                        grupo,
+                                        parametro,
+                                        params.valorAbsoluto,
+                                        params.sexo,
+                                        setTallita(e.currentTarget.value)
+                                      )
+                                    }
+                                    checked={tallita === "16"}
+                                  ></input>
+                                </div>
+
+                                <div className=" text-center">2</div>
+                                <div className=" text-center">4</div>
+                                <div className=" text-center">6</div>
+                                <div className=" text-center">8</div>
+                                <div className=" text-center">10</div>
+                                <div className=" text-center">12</div>
+                                <div className=" text-center">14</div>
+                                <div className=" text-center">16</div>
+                              </div>
                             </div>
                             <h3 className="pb-2 font-bold">Precio</h3>
 
@@ -12017,7 +12313,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
                                           id: "y" + nextId++,
                                           name: parametroDetalle.name,
                                           cantidad: calculo,
-                                          talla: activeIndex,
+                                          talla: tallita,
                                           sexo: parametroDetalle.sexo,
                                           tipo: "xT",
                                         },
