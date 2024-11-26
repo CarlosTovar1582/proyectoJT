@@ -141,7 +141,8 @@ const Categoryproductsf = [
     valorAbsoluto: 1,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc: "https://i.postimg.cc/SNqHqnTt/pantalon.png",
+    imageSrc:
+      "https://i.postimg.cc/GpGrTsKV/Whats-App-Image-2024-11-19-at-1-58-17-PM.jpg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
