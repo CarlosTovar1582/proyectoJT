@@ -4142,16 +4142,16 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Pantalon Strech Jeans ",
+        productName: "Pantalón Baggy ",
         href: "#",
-        imageSrc: "https://i.postimg.cc/FHKgb7pb/Pantalon-Strech-01.png",
+        imageSrc: "https://i.postimg.cc/G2ZdC2KZ/pantalon-baggy-01.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
           {
             id: "1",
             op: 0,
-            name: "Pantalon Tela Strech  (Maiz)",
+            name: "Pantalón Baggy  (Maiz)",
             codigo: "Codigo",
             description: `Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -4160,7 +4160,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/FHKgb7pb/Pantalon-Strech-01.png",
+            imageSrc: "https://i.postimg.cc/G2ZdC2KZ/pantalon-baggy-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4182,7 +4182,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "2",
             op: 0,
-            name: "Pantalon Tela Strech   (Cristal)",
+            name: "Pantalón Baggy  (Cristal)",
             codigo: "Codigo",
             description: `Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -4191,7 +4191,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/pXLn43jR/Pantalon-Strech-02.png",
+            imageSrc: "https://i.postimg.cc/GmqRpzzP/pantalon-baggy-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4213,7 +4213,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "3",
             op: 0,
-            name: "Pantalon Tela Strech   (Moteado)",
+            name: "Pantalón Baggy(Moteado)",
             codigo: "Codigo",
             description: `Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -4222,7 +4222,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/52ZYH0R2/Pantalon-Strech-03.png",
+            imageSrc: "https://i.postimg.cc/KjPSh5RM/pantalon-baggy-04.png  ",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4244,7 +4244,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "4",
             op: 0,
-            name: "Pantalon Tela Strech   (Celeste)",
+            name: "Pantalón Baggy (Celeste)",
             codigo: "Codigo",
             description: `Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -4253,7 +4253,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/c4f4Dm90/Pantalon-Strech-04.png",
+            imageSrc: "https://i.postimg.cc/zvSMcXcw/pantalon-baggy-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -8836,17 +8836,16 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Conjunto Camisa + Pantalon  ",
+        productName: "Conjunto Camisa + Pantalon Baggy ",
         href: "#",
-        imageSrc:
-          "https://i.postimg.cc/43rZ0SdR/Conjunto-Camisa-Pantalon-01.png",
+        imageSrc: "https://i.postimg.cc/brmrTfk6/camisa-pantalon-baggy-01.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
           {
             id: "1",
             op: 0,
-            name: "Conjunto Camisa + Pantalon  (Celeste)",
+            name: "Conjunto Camisa + Pantalon Baggy (Moteado)",
             codigo: "Codigo",
             description: `Conjunto Camisa`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -8856,7 +8855,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/43rZ0SdR/Conjunto-Camisa-Pantalon-01.png",
+              "https://i.postimg.cc/brmrTfk6/camisa-pantalon-baggy-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -8878,7 +8877,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "2",
             op: 0,
-            name: "Conjunto Camisa + Pantalon  (Maiz)",
+            name: "Conjunto Camisa + Pantalon Baggy (Celeste)",
             codigo: "Codigo",
             description: `Conjunto Camisa`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -8888,7 +8887,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/G2wwKT7c/Conjunto-Camisa-Pantalon-02.png",
+              "https://i.postimg.cc/rmFL90jk/camisa-pantalon-baggy-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -8910,7 +8909,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "3",
             op: 0,
-            name: "Conjunto Camisa + Pantalon  (Moteado)",
+            name: "Conjunto Camisa + Pantalon Baggy (Cristal)",
             codigo: "Codigo",
             description: `Conjunto Camisa`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -8920,7 +8919,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/bNF5L2rK/Conjunto-Camisa-Pantalon-03.png",
+              "https://i.postimg.cc/CMRKyXCV/camisa-pantalon-baggy-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -8942,7 +8941,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "4",
             op: 0,
-            name: "Conjunto Camisa + Pantalon  (Cristal)",
+            name: "Conjunto Camisa + Pantalon Baggy (Maiz)",
             codigo: "Codigo",
             description: `Conjunto Camisa`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -8952,7 +8951,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/y8ZLPQwZ/Conjunto-Camisa-Pantalon-04.png",
+              "https://i.postimg.cc/jdNd2fkg/camisa-pantalon-baggy-04.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
