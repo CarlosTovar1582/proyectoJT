@@ -8,11 +8,11 @@ export default function About() {
         <div className="overflow-hidden">
           <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32 ">
             <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center font-cabecera ">
-              <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl  rounded-2xl  ">
-                <h1 className="text-4xl  tracking-tight text-slate-900 bg-clip-text fon  sm:text-6xl font-bold  ">
+              <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl  rounded-2xl  border-2 border-blue-600 ">
+                <h1 className="text-4xl  tracking-tight text-slate-900 bg-clip-text   sm:text-6xl font-bold  mx-2 ">
                   Acerca de la Empresa.
                 </h1>
-                <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none ">
+                <p className="relative mt-6 text-md leading-8 text-gray-600 sm:max-w-md lg:max-w-none mx-2">
                   Jeans Tovar tiene más de 40 años de trayectoria en el mercado
                   peruano, ofreciendo una amplia y diversa colección de jeans de
                   alta calidad para niños y niñas. Combinando diseños
@@ -32,14 +32,14 @@ export default function About() {
       </div>
       {/* Content section */}
       <div className="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
-        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none font-cabecera">
-          <h2 className="text-4xl font-bold tracking-tight text-slate-900 bg-clip-text  sm:text-4xl font-cabecera">
+        <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl  rounded-2xl  border-2 border-green-600 ">
+          <h2 className="text-4xl  tracking-tight text-slate-900 bg-clip-text   sm:text-6xl font-bold  mx-2 font-cabecera">
             Nuestra Mision
           </h2>
           <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
             <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
-              <div className="mt-10 max-w-xl text-xl leading-8 text-gray-700">
-                <p>
+              <div className="mt-10 max-w-xl text-md leading-8 text-gray-700">
+                <p className="relative mt-6 text-md leading-8 text-gray-600 sm:max-w-md lg:max-w-none mx-2 font-cabecera">
                   "Crear prendas de alta calidad y moda para niños y niñas,
                   combinando la tradición familiar de más de 40 años con diseños
                   innovadores y duraderos y ofreciendo prendas confortables que
@@ -62,11 +62,11 @@ export default function About() {
       </div>
       {/* Values section */}
       <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-slate-900 font-cabecera bg-clip-text  sm:text-4xl">
+        <div className="mx-auto max-w-2xl lg:mx-0 border-2 border-red-600  rounded-2xl">
+          <h2 className="text-4xl  tracking-tight text-slate-900 bg-clip-text   sm:text-6xl font-bold  mx-2 font-cabecera">
             Vision
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600 font-cabecera">
+          <p className="relative mt-6 text-md leading-8 text-gray-600 sm:max-w-md lg:max-w-none mx-2 font-cabecera">
             "Consolidarnos como la marca líder de jeans infantiles en Perú,
             reconocida a nivel nacional e internacional por nuestra calidad
             superior, creatividad en los diseños y compromiso inquebrantable con
