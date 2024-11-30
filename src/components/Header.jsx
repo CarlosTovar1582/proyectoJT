@@ -70,6 +70,8 @@ export default function Header() {
     setShow(false);
     //https://i.postimg.cc/sxySNBTh/Logo-Finaljt.png
     //https://i.postimg.cc/6Qwdr6Dc/LOGO-TOVAR.png
+    //https://i.postimg.cc/L5hKS2zd/LOGO-TOVAR.png
+    //https://i.postimg.cc/Hxbq6RFF/LOGO-TOVAR.png
   }
 
   return (
@@ -77,14 +79,14 @@ export default function Header() {
       <div className="grid grid-cols-4 gap-0 text-black   ">
         <div className="col-span-3 lg:col-span-2 content-center ... pl-4 md:pl-4 ">
           <img
-            src="https://i.postimg.cc/L5hKS2zd/LOGO-TOVAR.png"
+            src="https://i.postimg.cc/Hxbq6RFF/LOGO-TOVAR.png"
             className="rounded-2xl object-fill "
             alt="Flowbite Logo"
           />
         </div>
         <div className="col-span-1 lg:col-span-2 ">
           <div className="lg:grid grid-cols-8  h-full  hidden  text-[1.0rem] md:text-[1.5rem]  w-full font-Montserrat-Alternates text-white ">
-            <div className=" text-right content-center ... pb-0 pt-10  col-span-2  w-full mx-auto ">
+            <div className=" text-right content-center ... pb-0 pt-4  col-span-2  w-full mx-auto ">
               <Link
                 to="/Home"
                 className="leading-6 
@@ -93,7 +95,7 @@ export default function Header() {
                 Inicio
               </Link>
             </div>
-            <div className=" text-center content-center ... pb-0 pt-10  col-span-2  w-full mx-auto">
+            <div className=" text-center content-center ... pb-0 pt-4  col-span-2  w-full mx-auto">
               <Link
                 to="/About"
                 className="leading-6    hover:scale-110 
@@ -102,7 +104,7 @@ export default function Header() {
                 Nosotros
               </Link>
             </div>
-            <div className=" text-left content-center ... pb-0 pt-10 col-span-2  w-full mx-auto ">
+            <div className=" text-left content-center ... pb-0 pt-4 col-span-2  w-full mx-auto ">
               <Link
                 to="/Tienda"
                 className="leading-6    hover:scale-110 
@@ -111,7 +113,7 @@ export default function Header() {
                 Tienda
               </Link>
             </div>
-            <div className=" text-left content-center ... pb-0 pt-10 col-span-2  w-full mx-auto">
+            <div className=" text-left content-center ... pb-0 pt-4 col-span-2  w-full mx-auto">
               <Link
                 to="/CategoryxMayor"
                 onClick={() => {
@@ -166,25 +168,24 @@ export default function Header() {
           </Transition.Child>
           <div className="fixed inset-0 ">
             <Dialog.Panel className=" w-full  font-title text-1xl max-w-7xl transform overflow-hiddenrounded-2xl bg-gradient-to-r from-slate-300 via-white to-white p-6 text-left align-middle shadow-xl transition-all">
-              <div className="grid grid-cols-4 gap-0 text-black border-2 border-black-500 rounded-2xl ">
-                <div className="col-span-3">
-                  <BookmarkIcon className="h-12 w-12" aria-hidden="true" />
+              <div className="grid grid-cols-4 gap-0 text-black border-2 border-blue-700 rounded-2xl ">
+                <div className="col-span-2">
+                  <BookmarkIcon className="h-8 w-8" aria-hidden="true" />
                 </div>
-                <div className="flex justify-end">
+                <div className="flex justify-end col-span-2 ">
                   <button
                     type="button"
                     className="-m-2.5 rounded-md p-2.5 text-gray-700"
                     onClick={() => closeModal(false)}
                   >
-                    <XMarkIcon className="h-12 w-12" aria-hidden="true" />
+                    <XMarkIcon className="h-8 w-8" aria-hidden="true" />
                   </button>
                 </div>
                 {/* 1 fila  */}
-                <div className="flex justify-center items-center "></div>
-                <div className="flex justify-center items-center ">
+                <div className="flex justify-center items-center  col-span-2">
                   <HomeIcon className="h-8 w-8 gap-16" aria-hidden="true" />
                 </div>
-                <div className="col-span-2  flex justify-start items-center font-cabecera">
+                <div className="col-span-2  flex justify-start items-center font-cabecera ">
                   <Link
                     to="/Home"
                     onClick={() => closeModal(false)}
@@ -195,8 +196,8 @@ export default function Header() {
                 </div>
                 {/* 1 fila  */}
                 {/* 2 fila  */}
-                <div className="flex justify-center items-center "></div>
-                <div className="flex justify-center items-center ">
+
+                <div className="flex justify-center items-center col-span-2">
                   <UserIcon className="h-8 w-8 gap-16" aria-hidden="true" />
                 </div>
                 <div className="col-span-2  flex justify-start items-center font-cabecera">
@@ -210,8 +211,8 @@ export default function Header() {
                 </div>
                 {/* 2 fila  */}
                 {/* 3 fila  */}
-                <div className="flex justify-center items-center "></div>
-                <div className="flex justify-center items-center ">
+
+                <div className="flex justify-center items-center col-span-2">
                   <FolderIcon className="h-8 w-8 gap-16" aria-hidden="true" />
                 </div>
                 <div className="col-span-2  flex justify-start items-center font-cabecera">
@@ -226,8 +227,8 @@ export default function Header() {
 
                 {/* 3 fila  */}
                 {/* 4 fila  */}
-                <div className="flex justify-center items-center "></div>
-                <div className="flex justify-center items-center ">
+
+                <div className="flex justify-center items-center col-span-2">
                   <FolderIcon className="h-8 w-8 gap-16" aria-hidden="true" />
                 </div>
                 <div className="col-span-2  flex justify-star items-center font-cabecera  ">
