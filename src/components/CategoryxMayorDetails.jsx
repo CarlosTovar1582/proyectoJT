@@ -7794,7 +7794,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         status: "delivery",
         productName: "Conjunto Pantalon Cargo  con Capucha",
         href: "#",
-        imageSrc: "https://i.postimg.cc/V6Fv2r9f/Conjuntocargo-Blanco-01.png",
+        imageSrc:
+          "https://i.postimg.cc/Vkvz6YKt/conjunto-pantalon-cargo-03.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
@@ -8067,7 +8068,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         status: "delivery",
         productName: "Conjunto Pantalon Jogger con Capucha",
         href: "#",
-        imageSrc: "https://i.postimg.cc/Y2sRPhdf/Conjunto-Jogger-01.png",
+        imageSrc:
+          "https://i.postimg.cc/gJmGDYkg/conjunto-pantalon-jogger-02.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
