@@ -1,4 +1,4 @@
-  import React from "react";
+import React from "react";
 
 import { Link } from "react-router-dom";
 
@@ -22,7 +22,7 @@ const people = [
     id: 4,
 
     imageUrl: "https://i.postimg.cc/8cSk1vDS/insta-removebg-preview.png",
-    href: "",
+    href: "https://www.instagram.com/jeans.tovar?igsh=bWh0bHBvMGYzZ2c%3D&utm_source=qr",
   },
   {
     name: "Tik Tok",
@@ -30,7 +30,7 @@ const people = [
     id: 5,
 
     imageUrl: "https://i.postimg.cc/DyfFBnwB/tik.png",
-    href: "",
+    href: "https://www.tiktok.com/@jeans_tovar?_t=8s1WTjgtyha&_r=1",
   },
   // More people...
 ];
