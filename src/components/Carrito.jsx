@@ -114,7 +114,7 @@ export const Carrito = () => {
     )*/
 
     window.open(
-      "https://api.whatsapp.com/send?phone=51997373676&text=Me%20interesan%20los%20siguientes%20productos: %0A" +
+      "https://api.whatsapp.com/send?phone=51962915371&text=Me%20interesan%20los%20siguientes%20productos: %0A" +
         cart.map((category, Idx) =>
           category.map(
             (item, itemIdx) =>
