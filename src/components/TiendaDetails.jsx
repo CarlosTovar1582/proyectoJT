@@ -1132,6 +1132,53 @@ export default function TiendaDetails({ id, name, cantidad }) {
         ],
       },
       {
+        id: "8",
+        grupo: "3",
+        subgrupo: "8",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.60",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.60",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.60",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.65",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.70",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.70",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.70",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.75",
+          },
+        ],
+      },
+      {
         id: "9",
         grupo: "3",
         subgrupo: "9",
@@ -2320,6 +2367,53 @@ export default function TiendaDetails({ id, name, cantidad }) {
           },
         ],
       },
+      {
+        id: "20",
+        grupo: "3",
+        subgrupo: "20",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.92",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.92",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.93",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.93",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.95",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.95",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.95",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.97",
+          },
+        ],
+      },
     ],
   };
   const TallasSeleccionfc = {
@@ -2559,6 +2653,54 @@ export default function TiendaDetails({ id, name, cantidad }) {
             id: "8",
             talla: "16",
             precio: "S/.120",
+          },
+        ],
+      },
+
+      {
+        id: "6",
+        grupo: "2",
+        subgrupo: "6",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.110",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.110",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.113",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.113",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.118",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.118",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.123",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.123",
           },
         ],
       },
@@ -5367,7 +5509,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
         status: "delivery",
         productName: "Bermuda Jeans Cargo",
         href: "#",
-        imageSrc: "https://i.postimg.cc/x8DSwQXG/Bermuda-cargo-01.png",
+        imageSrc: "https://i.postimg.cc/HnhL19Rr/bermuda-jeans-Cargo-02.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
@@ -5383,7 +5525,9 @@ export default function TiendaDetails({ id, name, cantidad }) {
             subgrupo: "3",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/x8DSwQXG/Bermuda-cargo-01.png",
+            //https://i.postimg.cc/rmT0fg2c/bermuda-jeans-Cargo-01.png
+            imageSrc:
+              "https://i.postimg.cc/HnhL19Rr/bermuda-jeans-Cargo-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -5414,7 +5558,8 @@ export default function TiendaDetails({ id, name, cantidad }) {
             subgrupo: "3",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/ry16Dvdb/Bermuda-cargo-02.png",
+            imageSrc:
+              "https://i.postimg.cc/k5mgC41v/bermuda-jeans-Cargo-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -5445,7 +5590,40 @@ export default function TiendaDetails({ id, name, cantidad }) {
             subgrupo: "3",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/FKMqRZhN/Bermuda-cargo-03.png",
+            imageSrc:
+              "https://i.postimg.cc/rmT0fg2c/bermuda-jeans-Cargo-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "4",
+            op: 0,
+            name: "Bermuda Jeans Cargo (Moteado)",
+            codigo: "Codigo",
+            description: `Short`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "6",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/KjwmHv3L/bermuda-jeans-Cargo-04.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -6167,7 +6345,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Pantalon Jeans",
+        productName: "Pantalon Ancho Jeans",
         href: "#",
         imageSrc: "https://i.postimg.cc/wTgpgZpG/Pantalonnina-01.png",
         imageAlt:
@@ -6268,6 +6446,118 @@ export default function TiendaDetails({ id, name, cantidad }) {
           },
         ],
       },
+      {
+        id: "8",
+        grupo: 3,
+        color: 0,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Pantalon Jeans Jogger",
+        href: "#",
+        imageSrc: "https://i.postimg.cc/59s5tHCg/pantalon-jogger-nina-01.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: 0,
+            name: " Pantalon Jeans Jogger (Cristal)",
+            codigo: "Codigo",
+            description: `Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "1",
+            sexo: "nina",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/59s5tHCg/pantalon-jogger-nina-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: 0,
+            name: "Pantalon Jeans Jogger(Moteado)",
+            codigo: "Codigo",
+            description: `Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "1",
+            sexo: "nina",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/sXwW18vx/pantalon-jogger-nina-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: 0,
+            name: " Pantalon Jeans Jogger (Celeste)",
+            codigo: "Codigo",
+            description: `Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "1",
+            sexo: "nina",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/2ytB7Zdf/pantalon-jogger-nina-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
+
       {
         id: "7",
         grupo: 4,
@@ -6898,7 +7188,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
       {
         id: "5",
         grupo: 2,
-        color: 0,
+        color: 1,
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
@@ -6911,7 +7201,135 @@ export default function TiendaDetails({ id, name, cantidad }) {
         details: [
           {
             id: "1",
-            op: 0,
+            op: "1",
+            name: "Conjunto Clasico con Forro Beige (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "1",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/qvRgLTpx/conjunto-clasic-sin-cap-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: "1",
+            name: "Conjunto Clasico con Forro Beige (Maiz)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "1",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/jqcskFgg/conjunto-clasic-sin-cap-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: "1",
+            name: "Conjunto Clasico con Forro Beige (Moteado)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "1",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/P5ghwsJx/conjunto-clasic-sin-cap-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "4",
+            op: "1",
+            name: "Conjunto Clasico con Forro Beige (Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "1",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/3xvQ7S1H/conjunto-clasic-sin-cap-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "5",
+            op: "2",
             name: "Conjunto Clasico con Forro Blanco (Moteado)",
             codigo: "Codigo",
             description: `Conjunto Pantalon`,
@@ -6942,8 +7360,8 @@ export default function TiendaDetails({ id, name, cantidad }) {
             ],
           },
           {
-            id: "2",
-            op: 0,
+            id: "6",
+            op: "2",
             name: "Conjunto Clasico con Forro Blanco (Maiz)",
             codigo: "Codigo",
             description: `Conjunto Pantalon`,
@@ -6974,8 +7392,8 @@ export default function TiendaDetails({ id, name, cantidad }) {
             ],
           },
           {
-            id: "3",
-            op: 0,
+            id: "7",
+            op: "2",
             name: "Conjunto Clasico con Forro Blanco (Celeste)",
             codigo: "Codigo",
             description: `Conjunto Pantalon`,
@@ -7006,8 +7424,8 @@ export default function TiendaDetails({ id, name, cantidad }) {
             ],
           },
           {
-            id: "4",
-            op: 0,
+            id: "8",
+            op: "2",
             name: "Conjunto Clasico con Forro Blanco (Cristal)",
             codigo: "Codigo",
             description: `Conjunto Pantalon`,
@@ -7631,38 +8049,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
               // More sections...
             ],
           },
-          {
-            id: "3",
-            op: "1",
-            name: "Conjunto Clasico con Forro Beige (Celeste)",
-            codigo: "Codigo",
-            description: `Conjunto Pantalon`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "2",
-            subgrupo: "4",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/7YMxC6Ny/Conjunto-Clasico-Cargo-Blanco-03.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
+
           ///
           {
             id: "4",
@@ -8964,6 +9351,151 @@ export default function TiendaDetails({ id, name, cantidad }) {
             href: "#",
             imageSrc:
               "https://i.postimg.cc/jdNd2fkg/camisa-pantalon-baggy-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "20",
+        grupo: 3,
+        color: 0,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Conjunto Camisa + Short Cargo ",
+        href: "#",
+        imageSrc:
+          "https://i.postimg.cc/3NgtPtdB/Conjunto-camisa-bermudacargo-01.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: 0,
+            name: "Conjunto Camisa + Short Cargo (Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/3NgtPtdB/Conjunto-camisa-bermudacargo-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: 0,
+            name: "Conjunto Camisa + Short Cargo (Maiz)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/59vKY2nC/Conjunto-camisa-bermudacargo-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: 0,
+            name: "Conjunto Camisa + Short Cargo (Moteado)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/BQ0YxfVw/Conjunto-camisa-bermudacargo-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "4",
+            op: 0,
+            name: "Conjunto Camisa + Short Cargo (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/dVW5Pktz/Conjunto-camisa-bermudacargo-04.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -10649,6 +11181,119 @@ export default function TiendaDetails({ id, name, cantidad }) {
             sexo: "nina",
             href: "#",
             imageSrc: "https://i.postimg.cc/NMJBcFXL/overol-falda-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
+      {
+        id: "6",
+        grupo: 2,
+        color: 1,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Conjunto Pantalon Cargo",
+        href: "#",
+        imageSrc:
+          "https://i.postimg.cc/7YK6gwLx/Conjunto-panta-cargo-nina-02.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: "1",
+            name: "Conjunto Pantalon Cargo con Forro Rosado (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "2",
+            sexo: "nina",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/7YK6gwLx/Conjunto-panta-cargo-nina-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: "1",
+            name: "Conjunto Pantalon Cargo con Forro Rosado (Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "2",
+            sexo: "nina",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/TY1GvmR6/Conjunto-panta-cargo-nina-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          //////////
+          {
+            id: "3",
+            op: "2",
+            name: "Conjunto Pantalon Cargo con Forro Blanco (Moteado)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "2",
+            sexo: "nina",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/tRt74hQn/Conjunto-panta-cargo-nina-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
