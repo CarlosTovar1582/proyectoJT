@@ -1180,48 +1180,48 @@ export default function TiendaDetails({ id, name, cantidad }) {
       },
       {
         id: "9",
-        grupo: "3",
+        grupo: "5",
         subgrupo: "9",
         details: [
           {
             id: "1",
             talla: "2",
-            precio: "S/.60",
+            precio: "S/.50",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.60",
+            precio: "S/.50",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.60",
+            precio: "S/.50",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.65",
+            precio: "S/.50",
           },
           {
             id: "5",
             talla: "10",
-            precio: "S/.70",
+            precio: "S/.53",
           },
           {
             id: "6",
             talla: "12",
-            precio: "S/.70",
+            precio: "S/.53",
           },
           {
             id: "7",
             talla: "14",
-            precio: "S/.70",
+            precio: "S/.53",
           },
           {
             id: "8",
             talla: "16",
-            precio: "S/.75",
+            precio: "S/.55",
           },
         ],
       },
@@ -6635,6 +6635,115 @@ export default function TiendaDetails({ id, name, cantidad }) {
           },
         ],
       },
+
+      {
+        id: "9",
+        grupo: 5,
+        color: 0,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "JUMPPER",
+        href: "#",
+        imageSrc: "https://i.postimg.cc/D0Nvq0fR/overol-falda-01.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: 0,
+            name: "JUMPPER (Maiz)",
+            codigo: "Codigo",
+            description: `Conjunto Overol`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "5",
+            subgrupo: "1",
+            sexo: "nina",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/D0Nvq0fR/overol-falda-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: 0,
+            name: "JUMPPER (Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto Overol`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "5",
+            subgrupo: "1",
+            sexo: "nina",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/zBX86KV9/overol-falda-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: 0,
+            name: "JUMPPER (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto Overol`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "5",
+            subgrupo: "1",
+            sexo: "nina",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/NMJBcFXL/overol-falda-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
     ],
   };
 
@@ -11093,114 +11202,6 @@ export default function TiendaDetails({ id, name, cantidad }) {
         ],
       },
 
-      {
-        id: "5",
-        grupo: 1,
-        color: 0,
-        date: "July 12, 2021",
-        datetime: "2021-07-12",
-        status: "delivery",
-        productName: "Conjunto Overol Falda con polo",
-        href: "#",
-        imageSrc: "https://i.postimg.cc/D0Nvq0fR/overol-falda-01.png",
-        imageAlt:
-          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
-        details: [
-          {
-            id: "1",
-            op: 0,
-            name: "Conjunto Overol Falda  (Maiz)",
-            codigo: "Codigo",
-            description: `Conjunto Overol`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "1",
-            subgrupo: "3",
-            sexo: "nina",
-            href: "#",
-            imageSrc: "https://i.postimg.cc/D0Nvq0fR/overol-falda-01.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          {
-            id: "2",
-            op: 0,
-            name: "Conjunto Overol Falda  (Cristal)",
-            codigo: "Codigo",
-            description: `Conjunto Overol`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "1",
-            subgrupo: "3",
-            sexo: "nina",
-            href: "#",
-            imageSrc: "https://i.postimg.cc/zBX86KV9/overol-falda-02.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          {
-            id: "3",
-            op: 0,
-            name: "Conjunto Overol Falda (Celeste)",
-            codigo: "Codigo",
-            description: `Conjunto Overol`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "1",
-            subgrupo: "3",
-            sexo: "nina",
-            href: "#",
-            imageSrc: "https://i.postimg.cc/NMJBcFXL/overol-falda-03.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-        ],
-      },
       {
         id: "6",
         grupo: 2,
