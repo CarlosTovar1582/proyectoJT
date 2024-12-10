@@ -158,6 +158,18 @@ const Categoryproductsf = [
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
+  {
+    id: 5,
+    name: "JUMPPER",
+    href: "#",
+    sexo: 2,
+    valorAbsoluto: 1,
+    tallas: "2 4 6 8 10 12 14 16",
+    description: "",
+    imageSrc: "https://i.postimg.cc/kghZsQHX/JUMPER.png",
+    imageAlt:
+      "Person using a pen to cross a task off a productivity paper card.",
+  },
 ];
 const Categoryproductsmc = [
   {
