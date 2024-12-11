@@ -561,7 +561,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.0",
+            precio: "S/.34",
           },
           {
             id: "2",
@@ -4656,7 +4656,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         status: "delivery",
         productName: "Pantalon Drill  ",
         href: "#",
-        imageSrc: "https://i.postimg.cc/tCVLQ3cT/Pantalon-Drill-01.png",
+        imageSrc: "https://i.postimg.cc/W4sL4pLr/pantalon-drill-02.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
@@ -4672,7 +4672,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "4",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/tCVLQ3cT/Pantalon-Drill-01.png",
+            imageSrc: "https://i.postimg.cc/W4sL4pLr/pantalon-drill-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4703,7 +4703,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "4",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/8s8XPYYC/Pantalon-Drill-02.png",
+            imageSrc: "https://i.postimg.cc/DzGgRLYP/pantalon-drill-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4734,7 +4734,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "4",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/kX9hZ0Wj/Pantalon-Drill-03.png",
+            imageSrc: "https://i.postimg.cc/vHpxkkRC/pantalon-drill-05.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4765,7 +4765,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "4",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/CKfNd7jB/Pantalon-Drill-04.png",
+            imageSrc: "https://i.postimg.cc/yNrDhbTf/pantalon-drill-04.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4787,7 +4787,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "5",
             op: 0,
-            name: "Pantalon Drill   (Negro)",
+            name: "Pantalon Drill   (Plomo)",
             codigo: "Codigo",
             description: `Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -4796,7 +4796,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "4",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/8ckMdmrb/Pantalon-Drill-05.png",
+            imageSrc: "https://i.postimg.cc/cLvygkr1/pantalon-drill-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -7856,7 +7856,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         productName: "Conjunto Pantalon Drill con Capucha ",
         href: "#",
         imageSrc:
-          "https://i.postimg.cc/dQnKjdr4/Conjunto-Pantalon-Drill-01.png",
+          "https://i.postimg.cc/PrtpbTMf/conjunto-pantalon-drill-02.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
@@ -7873,7 +7873,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/dQnKjdr4/Conjunto-Pantalon-Drill-01.png",
+              "https://i.postimg.cc/PrtpbTMf/conjunto-pantalon-drill-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -7905,7 +7905,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/rwrb3tR6/Conjunto-Pantalon-Drill-02.png",
+              "https://i.postimg.cc/RVymSTqr/conjunto-pantalon-drill-06.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -7937,7 +7937,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/QNzfDd3j/Conjunto-Pantalon-Drill-03.png",
+              "https://i.postimg.cc/qRscRQp1/conjunto-pantalon-drill-05.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -7969,7 +7969,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/C5b7Jb6J/Conjunto-Pantalon-Drill-04.png",
+              "https://i.postimg.cc/Dzdm4Nb4/conjunto-pantalon-drill-04.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -8001,7 +8001,39 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/65wggQLT/Conjunto-Pantalon-Drill-05.png",
+              "https://i.postimg.cc/g0YmQ2nr/conjunto-pantalon-drill-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "6",
+            op: 0,
+            name: "Conjunto Pantalon Drill(Plomo)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/MpgrfP8w/conjunto-pantalon-drill-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
