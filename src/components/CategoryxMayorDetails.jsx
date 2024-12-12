@@ -6544,14 +6544,14 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         status: "delivery",
         productName: "Pantalon Ancho Jeans",
         href: "#",
-        imageSrc: "https://i.postimg.cc/wTgpgZpG/Pantalonnina-01.png",
+        imageSrc: "https://i.postimg.cc/GpngBgQB/pantalon-ancho-nina-01.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
           {
             id: "1",
             op: 0,
-            name: " Pantalon Jeans (Azul Cristal)",
+            name: " Pantalon Jeans (Cristal)",
             codigo: "Codigo",
             description: `Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -6560,7 +6560,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nina",
             href: "#",
-            imageSrc: "https://i.postimg.cc/wTgpgZpG/Pantalonnina-01.png",
+            imageSrc:
+              "https://i.postimg.cc/GpngBgQB/pantalon-ancho-nina-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -6582,7 +6583,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "2",
             op: 0,
-            name: "Pantalon Jeans(Azul Moteado)",
+            name: "Pantalon Jeans(Celeste)",
             codigo: "Codigo",
             description: `Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -6591,38 +6592,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nina",
             href: "#",
-            imageSrc: "https://i.postimg.cc/j58nhPtH/Pantalonnina-02.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          {
-            id: "3",
-            op: 0,
-            name: " Pantalon Jeans (Celeste)",
-            codigo: "Codigo",
-            description: `Pantalon`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "3",
-            subgrupo: "1",
-            sexo: "nina",
-            href: "#",
-            imageSrc: "https://i.postimg.cc/hvzvbYCn/Pantalonnina-03.png",
+            imageSrc:
+              "https://i.postimg.cc/ydYP9MSN/pantalon-ancho-nina-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
