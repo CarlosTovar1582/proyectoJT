@@ -181,42 +181,42 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.50",
+            precio: "S/.40",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.50",
+            precio: "S/.40",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.50",
+            precio: "S/.40",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.50",
+            precio: "S/.40",
           },
           {
             id: "5",
             talla: "10",
-            precio: "S/.53",
+            precio: "S/.42",
           },
           {
             id: "6",
             talla: "12",
-            precio: "S/.53",
+            precio: "S/.42",
           },
           {
             id: "7",
             talla: "14",
-            precio: "S/.53",
+            precio: "S/.42",
           },
           {
             id: "8",
             talla: "16",
-            precio: "S/.58",
+            precio: "S/.47",
           },
         ],
       },
@@ -1611,53 +1611,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           },
         ],
       },
-      {
-        id: "3",
-        grupo: "1",
-        subgrupo: "3",
-        details: [
-          {
-            id: "1",
-            talla: "2",
-            precio: "S/.87",
-          },
-          {
-            id: "2",
-            talla: "4",
-            precio: "S/.87",
-          },
-          {
-            id: "3",
-            talla: "6",
-            precio: "S/.87",
-          },
-          {
-            id: "4",
-            talla: "8",
-            precio: "S/.87",
-          },
-          {
-            id: "5",
-            talla: "10",
-            precio: "S/.92",
-          },
-          {
-            id: "6",
-            talla: "12",
-            precio: "S/.92",
-          },
-          {
-            id: "7",
-            talla: "14",
-            precio: "S/.0",
-          },
-          {
-            id: "8",
-            talla: "16",
-            precio: "S/.0",
-          },
-        ],
-      },
+
       {
         id: "4",
         grupo: "1",
@@ -2456,6 +2410,102 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             id: "8",
             talla: "16",
             precio: "S/.72",
+          },
+        ],
+      },
+
+      {
+        id: "21",
+        grupo: "2",
+        subgrupo: "21",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.77",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.77",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.77",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.77",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.80",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.80",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.80",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.86",
+          },
+        ],
+      },
+
+      {
+        id: "22",
+        grupo: "2",
+        subgrupo: "22",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.74",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.74",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.74",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.74",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.77",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.77",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.77",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.83",
           },
         ],
       },
@@ -3543,6 +3593,176 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             href: "#",
             imageSrc:
               "https://i.postimg.cc/RFYzgzsc/Casacas-Clasicas-Jeans-04.jpg",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
+      {
+        id: "3",
+        grupo: 1,
+        color: 0,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Casaca sin Forro ",
+        href: "#",
+        imageSrc: "https://i.postimg.cc/QdJxgn9K/casaca-sinforro-01.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: 0,
+            name: "Casaca sin Forro (Moteado)",
+            codigo: "Codigo",
+            description: `Casaca`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "1",
+            subgrupo: "4",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/QdJxgn9K/casaca-sinforro-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: 0,
+            name: "Casaca sin Forro (Cristal)",
+            codigo: "Codigo",
+            description: `Casaca`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "1",
+            subgrupo: "4",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/RZs2zc2b/casaca-sinforro-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: 0,
+            name: "Casaca sin Forro (Madera)",
+            codigo: "Codigo",
+            description: `Casaca`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "1",
+            subgrupo: "4",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/fbvtLRjF/casaca-sinforro-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "4",
+            op: 0,
+            name: "Casaca sin Forro (Celeste)",
+            codigo: "Codigo",
+            description: `Casaca`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "1",
+            subgrupo: "4",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/N0bFtPQv/casaca-sinforro-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "5",
+            op: 0,
+            name: "Casaca sin Forro (Maiz)",
+            codigo: "Codigo",
+            description: `Casaca`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "1",
+            subgrupo: "4",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/mZPYd7Sg/casaca-sinforro-06.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -9018,6 +9238,331 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
               // More sections...
             ],
           },
+        ],
+      },
+      {
+        id: "21",
+        grupo: 2,
+        color: 0,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Conjunto Pantalon Cargo sin Forro",
+        href: "#",
+        imageSrc:
+          "https://i.postimg.cc/MKW0Z4BP/conjunto-pantalon-cargo-sinforro-01.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: 0,
+            name: "Conjunto Pantalon Cargo sin Forro (Maiz)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "8",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/MKW0Z4BP/conjunto-pantalon-cargo-sinforro-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: 0,
+            name: "Conjunto Pantalon Cargo sin Forro (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "8",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/4Nq32HX6/conjunto-pantalon-cargo-sinforro-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: 0,
+            name: "Conjunto Pantalon Cargo sin Forro (Madera)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "8",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/Zn0TV4gs/conjunto-pantalon-cargo-sinforro-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "4",
+            op: 0,
+            name: "Conjunto Pantalon Cargo sin Forro (Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "8",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/DzgnhS3Y/conjunto-pantalon-cargo-sinforro-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "5",
+            op: 0,
+            name: "Conjunto Pantalon Cargo sin Forro (Moteado)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "8",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/d13PKnBL/conjunto-pantalon-cargo-sinforro-05.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+
+          //////////////////
+        ],
+      },
+
+      {
+        id: "22",
+        grupo: 2,
+        color: 0,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Conjunto Pantalon  sin Forro",
+        href: "#",
+        imageSrc:
+          "https://i.postimg.cc/DwQfnY7y/conjunto-pantalon-sinforro-01.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: 0,
+            name: "Conjunto Pantalon  sin Forro (Moteado)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "9",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/DwQfnY7y/conjunto-pantalon-sinforro-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: 0,
+            name: "Conjunto Pantalon  sin Forro (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "9",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/gj6d5gMp/conjunto-pantalon-sinforro-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: 0,
+            name: "Conjunto Pantalon  sin Forro (Maiz)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "9",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/mgVD76Jp/conjunto-pantalon-sinforro-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "4",
+            op: 0,
+            name: "Conjunto Pantalon  sin Forro (Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "9",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/Z5Dmbk1m/conjunto-pantalon-sinforro-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+
+          //////////////////
         ],
       },
 
