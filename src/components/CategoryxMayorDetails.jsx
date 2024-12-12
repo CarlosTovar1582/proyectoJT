@@ -514,42 +514,42 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.34",
+            precio: "S/.37",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.34",
+            precio: "S/.37",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.34",
+            precio: "S/.37",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.34",
+            precio: "S/.37",
           },
           {
             id: "5",
             talla: "10",
-            precio: "S/.35",
+            precio: "S/.38",
           },
           {
             id: "6",
             talla: "12",
-            precio: "S/.35",
+            precio: "S/.38",
           },
           {
             id: "7",
             talla: "14",
-            precio: "S/.35",
+            precio: "S/.38",
           },
           {
             id: "8",
             talla: "16",
-            precio: "S/.37",
+            precio: "S/.39",
           },
         ],
       },
@@ -1233,42 +1233,42 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.34",
+            precio: "S/.37",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.34",
+            precio: "S/.37",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.34",
+            precio: "S/.37",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.34",
+            precio: "S/.37",
           },
           {
             id: "5",
             talla: "10",
-            precio: "S/.35",
+            precio: "S/.38",
           },
           {
             id: "6",
             talla: "12",
-            precio: "S/.35",
+            precio: "S/.38",
           },
           {
             id: "7",
             talla: "14",
-            precio: "S/.35",
+            precio: "S/.38",
           },
           {
             id: "8",
             talla: "16",
-            precio: "S/.37",
+            precio: "S/.39",
           },
         ],
       },
@@ -4737,14 +4737,14 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         status: "delivery",
         productName: "Pantalon Cargo  ",
         href: "#",
-        imageSrc: "https://i.postimg.cc/9Xkphv3P/Pantalon-Cargo-01.png",
+        imageSrc: "https://i.postimg.cc/k4Q7smmW/pantalon-cargo-nino-01.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
           {
             id: "1",
             op: 0,
-            name: "Pantalon Cargo (Maiz)",
+            name: "Pantalon Cargo (Moteado)",
             codigo: "Codigo",
             description: `Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -4753,7 +4753,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "3",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/9Xkphv3P/Pantalon-Cargo-01.png",
+            imageSrc:
+              "https://i.postimg.cc/k4Q7smmW/pantalon-cargo-nino-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4784,7 +4785,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "3",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/dDMrycvz/Pantalon-Cargo-02.png",
+            imageSrc:
+              "https://i.postimg.cc/x8jVPNgS/pantalon-cargo-nino-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4806,7 +4808,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "3",
             op: 0,
-            name: "Pantalon Cargo   (Celeste)",
+            name: "Pantalon Cargo   (Madera)",
             codigo: "Codigo",
             description: `Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -4815,7 +4817,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "3",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/gkRBBYwL/Pantalon-Cargo-03.png",
+            imageSrc:
+              "https://i.postimg.cc/c4HNgYrR/pantalon-cargo-nino-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4837,7 +4840,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "4",
             op: 0,
-            name: "Pantalon Cargo   (Moteado)",
+            name: "Pantalon Cargo   (Celeste)",
             codigo: "Codigo",
             description: `Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -4846,7 +4849,40 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "3",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/L8DDrhm5/Pantalon-Cargo-04.png",
+            imageSrc:
+              "https://i.postimg.cc/W4RRHHS8/pantalon-cargo-nino-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "5",
+            op: 0,
+            name: "Pantalon Cargo   (Maiz)",
+            codigo: "Codigo",
+            description: `Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/DwGf0sMC/pantalon-cargo-nino-05.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -6699,6 +6735,118 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             href: "#",
             imageSrc:
               "https://i.postimg.cc/2ytB7Zdf/pantalon-jogger-nina-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "10",
+        grupo: 3,
+        color: 0,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Pantalon Cargo",
+        href: "#",
+        imageSrc: "https://i.postimg.cc/7PVbggXb/pantalon-cargo-nina-04.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: 0,
+            name: " Pantalon Cargo (Celeste)",
+            codigo: "Codigo",
+            description: `Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nina",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/tRhW8ZkH/pantalon-cargo-nina-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: 0,
+            name: "Pantalon Cargo (Moteado)",
+            codigo: "Codigo",
+            description: `Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nina",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/3w4D1dNV/pantalon-cargo-nina-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: 0,
+            name: " Pantalon Cargo (Celeste)",
+            codigo: "Codigo",
+            description: `Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nina",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/j5YChcGn/pantalon-cargo-nina-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -11321,7 +11469,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             op: "1",
-            name: "Conjunto Pantalon con Forro Rosado (Celeste)",
+            name: "Conjunto Pantalon con Forro Rosado (Moteado)",
             codigo: "Codigo",
             description: `Conjunto Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -11330,8 +11478,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nina",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/dVKj6n9h/Conjunto-Pantalon-Nina-Forro-01.png",
+            imageSrc: "https://i.postimg.cc/1z8SkSck/c1.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -11353,7 +11500,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "2",
             op: "1",
-            name: "Conjunto Pantalon con Forro Rosado   (Azul Cristal)",
+            name: "Conjunto Pantalon con Forro Rosado   (Cristal)",
             codigo: "Codigo",
             description: `Conjunto Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -11362,8 +11509,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nina",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/vHyvL3hc/Conjunto-Pantalon-Nina-Forro-04.png",
+            imageSrc: "https://i.postimg.cc/25gYmt0V/c2.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -11394,8 +11540,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nina",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/L52Zf0SS/Conjunto-Pantalon-Nina-Forro-05.png",
+            imageSrc: "https://i.postimg.cc/rpR6hJqc/c3.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -11418,7 +11563,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "4",
             op: "2",
-            name: "Conjunto Pantalon con Forro Blanco (Celeste)",
+            name: "Conjunto Pantalon con Forro Blanco (Moteado)",
             codigo: "Codigo",
             description: `Conjunto Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -11427,8 +11572,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nina",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/YS0GzmT4/Conjunto-Pantalon-Nina-Forro-02.png",
+            imageSrc: "https://i.postimg.cc/FKLqbHxH/c4.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -11450,7 +11594,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "5",
             op: "2",
-            name: "Conjunto Pantalon con Forro Blanco (Azul Cristal)",
+            name: "Conjunto Pantalon con Forro Blanco (Cristal)",
             codigo: "Codigo",
             description: `Conjunto Pantalon`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -11459,8 +11603,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nina",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/VvpDz8Mg/Conjunto-Pantalon-Nina-Forro-03.png",
+            imageSrc: "https://i.postimg.cc/SQrPf5cC/c5.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -11491,8 +11634,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nina",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/Xqr62n4k/Conjunto-Pantalon-Nina-Forro-06.png",
+            imageSrc: "https://i.postimg.cc/dVTnpSZW/c6.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
