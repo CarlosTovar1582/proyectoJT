@@ -3783,24 +3783,23 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           },
         ],
       },
-      /*
       {
-        id: "3",
+        id: "4",
         grupo: 1,
         color: 0,
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Casaca Doble Cara",
+        productName: "Casaca Jeans con Capucha Forro Amarillo ",
         href: "#",
-        imageSrc: "https://i.postimg.cc/CKPQCs5t/Casaca-Doble-Cara-01.jpg",
+        imageSrc: "https://i.postimg.cc/6p06d0z3/casaca-jeans-capucha-12.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
           {
             id: "1",
             op: 0,
-            name: "Casaca Doble Cara (Cristal)",
+            name: "Casaca Jeans con Capucha Forro Amarillo(Moteado)",
             codigo: "Codigo",
             description: `Casaca`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -3809,7 +3808,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "3",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/CKPQCs5t/Casaca-Doble-Cara-01.jpg",
+            imageSrc:
+              "https://i.postimg.cc/6p06d0z3/casaca-jeans-capucha-12.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3831,7 +3831,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "2",
             op: 0,
-            name: "Casaca Doble Cara (Celeste)",
+            name: "Casaca Jeans con Capucha Forro Amarillo (Maiz)",
             codigo: "Codigo",
             description: `Casaca`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -3840,7 +3840,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "3",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/mkGN7PYJ/Casaca-Doble-Cara-02.jpg",
+            imageSrc:
+              "https://i.postimg.cc/Fz5QtdG8/casaca-jeans-capucha-09.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3862,7 +3863,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "3",
             op: 0,
-            name: "Casaca Doble Cara (Maiz)",
+            name: "Casaca Jeans con Capucha Forro Amarillo (Celeste)",
             codigo: "Codigo",
             description: `Casaca`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -3871,7 +3872,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "3",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/J7cj94c7/Casaca-Doble-Cara-03.jpg",
+            imageSrc:
+              "https://i.postimg.cc/jjDVLQFB/casaca-jeans-capucha-10.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3893,7 +3895,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "4",
             op: 0,
-            name: "Casaca Doble Cara (Moteado)",
+            name: "Casaca Jeans con Capucha Forro Amarillo (Cristal)",
             codigo: "Codigo",
             description: `Casaca`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
@@ -3902,7 +3904,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "3",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/cLj3QKZh/Casaca-Doble-Cara-04.jpg",
+            imageSrc:
+              "https://i.postimg.cc/fLd6vWZK/casaca-jeans-capucha-11.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3923,7 +3926,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           },
         ],
       },
-      */
+
       {
         id: "5",
         grupo: 1,
@@ -3933,7 +3936,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         status: "delivery",
         productName: "Casaca Jeans con Capucha",
         href: "#",
-        imageSrc: "https://i.postimg.cc/4yDm7SHg/casaca-jeanscapucha-01.png",
+        imageSrc: "https://i.postimg.cc/bvWTLQwX/casaca-jeans-capucha-02.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
@@ -3950,7 +3953,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/CLtT79CT/casaca-capucha-07.png",
+            imageSrc:
+              "https://i.postimg.cc/bvWTLQwX/casaca-jeans-capucha-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -3981,7 +3985,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/vmsKSycj/casaca-capucha-06.png",
+            imageSrc:
+              "https://i.postimg.cc/D0Kc3nGB/casaca-jeans-capucha-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4012,7 +4017,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/qRYSw3nc/casaca-capucha-01.png",
+            imageSrc:
+              "https://i.postimg.cc/PrTM6fTq/casaca-jeans-capucha-04.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4043,7 +4049,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/25rH7xtN/casaca-capucha-04.png",
+            imageSrc:
+              "https://i.postimg.cc/T3PJ6kyM/casaca-jeans-capucha-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4078,7 +4085,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/5NWkt1mt/casaca-capucha-03.png",
+            imageSrc:
+              "https://i.postimg.cc/4xFbNztK/casaca-jeans-capucha-06.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4109,7 +4117,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/Y9mbpyGg/casaca-capucha-08.png",
+            imageSrc:
+              "https://i.postimg.cc/MGC71q9q/casaca-jeans-capucha-07.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4140,7 +4149,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/NftpcDg9/casaca-capucha-05.png",
+            imageSrc:
+              "https://i.postimg.cc/gJ3vDQ7R/casaca-jeans-capucha-05.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -4171,7 +4181,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             subgrupo: "5",
             sexo: "nino",
             href: "#",
-            imageSrc: "https://i.postimg.cc/XY7LZvBn/casaca-capucha-02.png",
+            imageSrc:
+              "https://i.postimg.cc/1XHDx6s3/casaca-jeans-capucha-08.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
