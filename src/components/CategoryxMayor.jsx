@@ -217,8 +217,7 @@ const Categoryproductsmc = [
     valorAbsoluto: 2,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/d1V0zmhj/Conjunto3-Piezas-Strechc-Jeans-01.png",
+    imageSrc: "https://i.postimg.cc/wBqgQhs6/3piezas-forro-blanco-02.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
