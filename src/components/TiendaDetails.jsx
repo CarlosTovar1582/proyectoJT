@@ -10532,7 +10532,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/d1V0zmhj/Conjunto3-Piezas-Strechc-Jeans-01.png",
+              "https://i.postimg.cc/wBqgQhs6/3piezas-forro-blanco-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -10564,7 +10564,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/fyxqhXtB/Conjunto3-Piezas-Strechc-Jeans-02.png",
+              "https://i.postimg.cc/L51p8DGV/3piezas-forro-blanco-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -10596,7 +10596,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/3Nv50dyv/Conjunto3-Piezas-Strechc-Jeans-03.png",
+              "https://i.postimg.cc/XX60GFb6/3piezas-forro-blanco-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -10628,7 +10628,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc:
-              "https://i.postimg.cc/BvLdVjgw/Conjunto3-Piezas-Strechc-Jeans-04.png",
+              "https://i.postimg.cc/4NpY8Qnt/3piezas-forro-blanco-04.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
