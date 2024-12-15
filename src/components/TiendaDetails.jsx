@@ -10385,8 +10385,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
         status: "delivery",
         productName: "Conjunto Pantalon Clasico con Capucha (3 Piezas) ",
         href: "#",
-        imageSrc:
-          "https://i.postimg.cc/d1V0zmhj/Conjunto3-Piezas-Strechc-Jeans-01.png",
+        imageSrc: "https://i.postimg.cc/wBqgQhs6/3piezas-forro-blanco-02.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
