@@ -62,6 +62,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
   const notificationMethods1 = [
     { id: "1", title: "Beige", value: "1" },
     { id: "2", title: "Blanco", value: "2" },
+    { id: "3", title: "Teddy", value: "3" },
   ];
 
   //RADIO
@@ -2807,13 +2808,72 @@ export default function TiendaDetails({ id, name, cantidad }) {
   function mostrarTituloRadio(valor) {
     //console.log("Hola");
     setRadio(valor);
+    setTallita(false);
 
+    console.log(params.general);
+    console.log(precioUnico);
     //console.log(grupo);
+    //console.log(subgrupo);
+    //console.log(valor);
+    //console.log(params.sexo);
     //console.log(params.valorAbsoluto);
 
     setTitulo("");
     //console.log(costo);
     setPrecioUnico("");
+    if (grupo == 1 && params.sexo == 1 && params.general === "s") {
+      //document.getElementById("idcosto").innerText = "No Disponible";
+      //document.getElementById("idCarrito").style.visibility = "hidden";
+      //document.getElementById("idtallas").style.visibility = "hidden";
+      //document.getElementById("idcosto").innerText = "";
+      if (subgrupo != 5) {
+        if (valor == 3) {
+          document.getElementById("idtallas").style.visibility = "hidden";
+
+          document.getElementById("idpos").innerText = "No Disponible";
+          document.getElementById("idcosto").innerText = "";
+          document.getElementById("idCarrito").style.visibility = "hidden";
+          document.getElementById("idmensaje").innerText = "";
+        } else {
+          //document.getElementById("idcosto").innerText = "";
+
+          //document.getElementById("idcosto").style.visibility = "visible";
+          document.getElementById("idcosto").innerText = "";
+          document.getElementById("idpos").innerText = "";
+          document.getElementById("idtallas").style.visibility = "visible";
+          document.getElementById("idCarrito").style.visibility = "visible";
+          document.getElementById("idmensaje").innerText = "";
+
+          //document.getElementById("idCarrito").style.visibility = "visible";
+        }
+      } else {
+        document.getElementById("idmensaje").innerText = "";
+        document.getElementById("idcosto").innerText = "";
+      }
+    } else {
+      if (params.sexo == 1) {
+        console.log("entro aki");
+        if (valor == 3) {
+          document.getElementById("idpos").innerText = "No Disponible";
+          document.getElementById("idtallas").style.visibility = "hidden";
+          document.getElementById("idcosto").innerText = "";
+          document.getElementById("idCarrito").style.visibility = "hidden";
+          document.getElementById("idmensaje").innerText = "";
+        } else {
+          document.getElementById("idcosto").innerText = "";
+          document.getElementById("idpos").innerText = "";
+          document.getElementById("idtallas").style.visibility = "visible";
+          document.getElementById("idCarrito").style.visibility = "visible";
+          document.getElementById("idmensaje").innerText = "";
+
+          //document.getElementById("idCarrito").style.visibility = "visible";
+        }
+      } else {
+        document.getElementById("idmensaje").innerText = "";
+        document.getElementById("idcosto").innerText = "";
+        document.getElementById("idpos").innerText = "";
+      }
+    }
     //document.getElementById("idcosto").innerText = "No Disponible";
     //document.getElementById("idCarrito").style.visibility = "hidden";
     //document.getElementById("idcosto").innerText = "";
@@ -3056,13 +3116,13 @@ export default function TiendaDetails({ id, name, cantidad }) {
    */
 
     //console.log(titulo);
-    //console.log(precioUnico);
-
+    console.log(precioUnico);
+    //console.log(costo);
     if (titulo === "") {
       document.getElementById("idmensaje").innerText =
         "* Se Requiere Seleccionar un Producto ";
     } else {
-      if (tallita !== 0) {
+      if (precioUnico != "0") {
         setCart([...cart, artists]);
 
         setTitulo("");
@@ -3079,7 +3139,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
         //setIsOpen(true)
       } else {
         document.getElementById("idmensaje").innerText =
-          "* Se Requiere Seleccionar una Talla";
+          "* Se Requiere Seleccionar una Talla ";
       }
     }
 
@@ -3891,149 +3951,6 @@ export default function TiendaDetails({ id, name, cantidad }) {
           },
         ],
       },
-      {
-        id: "4",
-        grupo: 1,
-        color: 0,
-        date: "July 12, 2021",
-        datetime: "2021-07-12",
-        status: "delivery",
-        productName: "Casaca Jeans con Capucha Forro Amarillo ",
-        href: "#",
-        imageSrc: "https://i.postimg.cc/6p06d0z3/casaca-jeans-capucha-12.png",
-        imageAlt:
-          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
-        details: [
-          {
-            id: "1",
-            op: 0,
-            name: "Casaca Jeans con Capucha Forro Amarillo(Moteado)",
-            codigo: "Codigo",
-            description: `Casaca`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "1",
-            subgrupo: "3",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/6p06d0z3/casaca-jeans-capucha-12.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          {
-            id: "2",
-            op: 0,
-            name: "Casaca Jeans con Capucha Forro Amarillo (Maiz)",
-            codigo: "Codigo",
-            description: `Casaca`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "1",
-            subgrupo: "3",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/Fz5QtdG8/casaca-jeans-capucha-09.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          {
-            id: "3",
-            op: 0,
-            name: "Casaca Jeans con Capucha Forro Amarillo (Celeste)",
-            codigo: "Codigo",
-            description: `Casaca`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "1",
-            subgrupo: "3",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/jjDVLQFB/casaca-jeans-capucha-10.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          {
-            id: "4",
-            op: 0,
-            name: "Casaca Jeans con Capucha Forro Amarillo (Cristal)",
-            codigo: "Codigo",
-            description: `Casaca`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "1",
-            subgrupo: "3",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/fLd6vWZK/casaca-jeans-capucha-11.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-        ],
-      },
 
       {
         id: "5",
@@ -4291,6 +4208,135 @@ export default function TiendaDetails({ id, name, cantidad }) {
             href: "#",
             imageSrc:
               "https://i.postimg.cc/1XHDx6s3/casaca-jeans-capucha-08.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          /////////////////
+          {
+            id: "10",
+            op: "3",
+            name: "Casaca Jeans con Capucha Forro Teddy (Moteado)",
+            codigo: "Codigo",
+            description: `Casaca`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "1",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/6p06d0z3/casaca-jeans-capucha-12.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "11",
+            op: "3",
+            name: "Casaca Jeans con Capucha Forro Teddy (Maiz)",
+            codigo: "Codigo",
+            description: `Casaca`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "1",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/Fz5QtdG8/casaca-jeans-capucha-09.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "12",
+            op: "3",
+            name: "Casaca Jeans con Capucha Forro Teddy (Celeste)",
+            codigo: "Codigo",
+            description: `Casaca`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "1",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/jjDVLQFB/casaca-jeans-capucha-10.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "13",
+            op: "3",
+            name: "Casaca Jeans con Capucha Forro Teddy (Cristal)",
+            codigo: "Codigo",
+            description: `Casaca`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "1",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/fLd6vWZK/casaca-jeans-capucha-11.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -12178,6 +12224,10 @@ export default function TiendaDetails({ id, name, cantidad }) {
     /*document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("idtallas").style.visibility = "hidden";
     });*/
+    //console.log(a);
+    //console.log(b);
+    //console.log(c);
+    setSubGrupo(a);
 
     //document.getElementById("idtallas").style.display = "hidden";
     //document.getElementById("idtallas").style.visibility = "hidden";
@@ -13556,7 +13606,10 @@ export default function TiendaDetails({ id, name, cantidad }) {
                               </div>
                             </div>
                             <h3 className="pb-2 font-bold">Precio</h3>
-
+                            <p
+                              id="idpos"
+                              className="font-cabecera text-6xl text-red-800"
+                            ></p>
                             <h2
                               id="idcosto"
                               className="font-cabecera text-6xl text-red-800 "
