@@ -2703,6 +2703,53 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           },
         ],
       },
+      {
+        id: "6",
+        grupo: "2",
+        subgrupo: "6",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.86",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.86",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.86",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.86",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.90",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.90",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.90",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.96",
+          },
+        ],
+      },
     ],
   };
 
