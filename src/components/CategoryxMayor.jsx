@@ -398,7 +398,9 @@ export default function CategoryxMayor() {
                       "/" +
                       product.sexo +
                       "/" +
-                      product.valorAbsoluto
+                      product.valorAbsoluto +
+                      "/" +
+                      general
                     }
                     key={product.id}
                     href={product.href}
@@ -439,7 +441,9 @@ export default function CategoryxMayor() {
                     "/" +
                     product.sexo +
                     "/" +
-                    product.valorAbsoluto
+                    product.valorAbsoluto +
+                    "/" +
+                    general
                   }
                   key={product.id}
                   href={product.href}
@@ -528,7 +532,9 @@ export default function CategoryxMayor() {
                       "/" +
                       product.sexo +
                       "/" +
-                      product.valorAbsoluto
+                      product.valorAbsoluto +
+                      "/" +
+                      general
                     }
                     key={product.id}
                     href={product.href}
@@ -569,7 +575,9 @@ export default function CategoryxMayor() {
                     "/" +
                     product.sexo +
                     "/" +
-                    product.valorAbsoluto
+                    product.valorAbsoluto +
+                    "/" +
+                    general
                   }
                   key={product.id}
                   href={product.href}
