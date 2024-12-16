@@ -114,13 +114,13 @@ function App() {
                 <Route path="/Tienda" element={<Tienda />} />
                 <Route path="/TiendaDetails" element={<TiendaDetails />} />
                 <Route
-                  path="/Tienda/:id/:sexo/:valorAbsoluto"
+                  path="/Tienda/:id/:sexo/:valorAbsoluto/:general"
                   element={<TiendaDetails />}
                 />
                 <Route path="/Category" element={<Category />} />
                 <Route path="/CategoryxMayor" element={<CategoryxMayor />} />
                 <Route
-                  path="/CategoryxMayor/:id/:sexo/:valorAbsoluto"
+                  path="/CategoryxMayor/:id/:sexo/:valorAbsoluto/:general"
                   element={<CategoryxMayorDetails />}
                 />
                 <Route path="/About" element={<About />} />
