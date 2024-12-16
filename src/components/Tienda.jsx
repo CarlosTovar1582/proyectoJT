@@ -399,7 +399,9 @@ export default function Tienda() {
                       "/" +
                       product.sexo +
                       "/" +
-                      product.valorAbsoluto
+                      product.valorAbsoluto +
+                      "/" +
+                      general
                     }
                     key={product.id}
                     href={product.href}
@@ -440,7 +442,9 @@ export default function Tienda() {
                     "/" +
                     product.sexo +
                     "/" +
-                    product.valorAbsoluto
+                    product.valorAbsoluto +
+                    "/" +
+                    general
                   }
                   key={product.id}
                   href={product.href}
@@ -529,7 +533,9 @@ export default function Tienda() {
                       "/" +
                       product.sexo +
                       "/" +
-                      product.valorAbsoluto
+                      product.valorAbsoluto +
+                      "/" +
+                      general
                     }
                     key={product.id}
                     href={product.href}
@@ -570,7 +576,9 @@ export default function Tienda() {
                     "/" +
                     product.sexo +
                     "/" +
-                    product.valorAbsoluto
+                    product.valorAbsoluto +
+                    "/" +
+                    general
                   }
                   key={product.id}
                   href={product.href}
