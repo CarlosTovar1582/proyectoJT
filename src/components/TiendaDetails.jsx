@@ -2810,8 +2810,8 @@ export default function TiendaDetails({ id, name, cantidad }) {
     setRadio(valor);
     setTallita(false);
 
-    console.log(params.general);
-    console.log(precioUnico);
+    //console.log(params.general);
+    //console.log(precioUnico);
     //console.log(grupo);
     //console.log(subgrupo);
     //console.log(valor);
@@ -2820,7 +2820,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
 
     setTitulo("");
     //console.log(costo);
-    setPrecioUnico("");
+    //setPrecioUnico("");
     if (grupo == 1 && params.sexo == 1 && params.general === "s") {
       //document.getElementById("idcosto").innerText = "No Disponible";
       //document.getElementById("idCarrito").style.visibility = "hidden";
@@ -3116,13 +3116,15 @@ export default function TiendaDetails({ id, name, cantidad }) {
    */
 
     //console.log(titulo);
-    console.log(precioUnico);
+    //console.log(precioUnico);
     //console.log(costo);
     if (titulo === "") {
       document.getElementById("idmensaje").innerText =
         "* Se Requiere Seleccionar un Producto ";
     } else {
-      if (precioUnico != "0") {
+      if (precioUnico != 0) {
+        console.log("Se registro correctamente");
+
         setCart([...cart, artists]);
 
         setTitulo("");
