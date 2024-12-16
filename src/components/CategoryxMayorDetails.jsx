@@ -2807,8 +2807,8 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
     setRadio(valor);
     setTallita(false);
 
-    console.log(params.general);
-    console.log(precioUnico);
+    //console.log(params.general);
+    //console.log(precioUnico);
     //console.log(grupo);
     //console.log(subgrupo);
     //console.log(valor);
@@ -2817,7 +2817,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
 
     setTitulo("");
     //console.log(costo);
-    setPrecioUnico("");
+    //setPrecioUnico("");
     if (grupo == 1 && params.sexo == 1 && params.general === "s") {
       //document.getElementById("idcosto").innerText = "No Disponible";
       //document.getElementById("idCarrito").style.visibility = "hidden";
@@ -2849,6 +2849,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       }
     } else {
       if (params.sexo == 1) {
+        console.log("entro aki");
         if (valor == 3) {
           document.getElementById("idpos").innerText = "No Disponible";
           document.getElementById("idtallas").style.visibility = "hidden";
@@ -2856,7 +2857,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           document.getElementById("idCarrito").style.visibility = "hidden";
           document.getElementById("idmensaje").innerText = "";
         } else {
-          //document.getElementById("idcosto").innerText = "";
+          document.getElementById("idcosto").innerText = "";
           document.getElementById("idpos").innerText = "";
           document.getElementById("idtallas").style.visibility = "visible";
           document.getElementById("idCarrito").style.visibility = "visible";
@@ -3114,7 +3115,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       document.getElementById("idmensaje").innerText =
         "* Se Requiere Seleccionar un Producto ";
     } else {
-      if (precioUnico != "0") {
+      if (precioUnico != 0) {
         setCart([...cart, artists]);
 
         setTitulo("");
