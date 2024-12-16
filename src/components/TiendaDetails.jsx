@@ -92,7 +92,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "2",
             talla: "4",
-            precio: "S/.68",
+            precio: "S/.70",
           },
           {
             id: "3",
@@ -139,7 +139,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "2",
             talla: "4",
-            precio: "S/.68",
+            precio: "S/.70",
           },
           {
             id: "3",
@@ -182,42 +182,42 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.60",
+            precio: "S/.68",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.60",
+            precio: "S/.70",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.60",
+            precio: "S/.70",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.60",
+            precio: "S/.70",
           },
           {
             id: "5",
             talla: "10",
-            precio: "S/.65",
+            precio: "S/.75",
           },
           {
             id: "6",
             talla: "12",
-            precio: "S/.65",
+            precio: "S/.75",
           },
           {
             id: "7",
             talla: "14",
-            precio: "S/.65",
+            precio: "S/.75",
           },
           {
             id: "8",
             talla: "16",
-            precio: "S/.70",
+            precio: "S/.80",
           },
         ],
       },
@@ -235,7 +235,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "2",
             talla: "4",
-            precio: "S/.68",
+            precio: "S/.70",
           },
           {
             id: "3",
@@ -282,7 +282,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "2",
             talla: "4",
-            precio: "S/.68",
+            precio: "S/.70",
           },
           {
             id: "3",
@@ -801,42 +801,42 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.55",
+            precio: "S/.60",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.55",
+            precio: "S/.60",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.55",
+            precio: "S/.60",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.55",
+            precio: "S/.60",
           },
           {
             id: "5",
             talla: "10",
-            precio: "S/.60",
+            precio: "S/.65",
           },
           {
             id: "6",
             talla: "12",
-            precio: "S/.60",
+            precio: "S/.65",
           },
           {
             id: "7",
             talla: "14",
-            precio: "S/.60",
+            precio: "S/.65",
           },
           {
             id: "8",
             talla: "16",
-            precio: "S/.65",
+            precio: "S/.68",
           },
         ],
       },
@@ -859,7 +859,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "2",
             talla: "4",
-            precio: "S/.68",
+            precio: "S/.70",
           },
           {
             id: "3",
@@ -906,7 +906,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "2",
             talla: "4",
-            precio: "S/.68",
+            precio: "S/.70",
           },
           {
             id: "3",
@@ -953,7 +953,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "2",
             talla: "4",
-            precio: "S/.68",
+            precio: "S/.70",
           },
           {
             id: "3",
@@ -2093,37 +2093,37 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.85",
+            precio: "S/.89",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.85",
+            precio: "S/.89",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.85",
+            precio: "S/.90",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.85",
+            precio: "S/.90",
           },
           {
             id: "5",
             talla: "10",
-            precio: "S/.90",
+            precio: "S/.93",
           },
           {
             id: "6",
             talla: "12",
-            precio: "S/.90",
+            precio: "S/.93",
           },
           {
             id: "7",
             talla: "14",
-            precio: "S/.90",
+            precio: "S/.93",
           },
           {
             id: "8",
@@ -2140,42 +2140,42 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.85",
+            precio: "S/.95",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.85",
+            precio: "S/.95",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.90",
+            precio: "S/.95",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.90",
+            precio: "S/.95",
           },
           {
             id: "5",
             talla: "10",
-            precio: "S/.95",
+            precio: "S/.98",
           },
           {
             id: "6",
             talla: "12",
-            precio: "S/.95",
+            precio: "S/.98",
           },
           {
             id: "7",
             talla: "14",
-            precio: "S/.95",
+            precio: "S/.98",
           },
           {
             id: "8",
             talla: "16",
-            precio: "S/.100",
+            precio: "S/.101",
           },
         ],
       },
@@ -2187,22 +2187,22 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.85",
+            precio: "S/.90",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.85",
+            precio: "S/.90",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.90",
+            precio: "S/.93",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.90",
+            precio: "S/.93",
           },
           {
             id: "5",
@@ -2330,42 +2330,42 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.119",
+            precio: "S/.140",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.136",
+            precio: "S/.140",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.136",
+            precio: "S/.140",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.140",
+            precio: "S/.145",
           },
           {
             id: "5",
             talla: "10",
-            precio: "S/.145",
+            precio: "S/.149",
           },
           {
             id: "6",
             talla: "12",
-            precio: "S/.145",
+            precio: "S/.149",
           },
           {
             id: "7",
             talla: "14",
-            precio: "S/.145",
+            precio: "S/.149",
           },
           {
             id: "8",
             talla: "16",
-            precio: "S/.150",
+            precio: "S/.155",
           },
         ],
       },
@@ -2424,42 +2424,42 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.102",
+            precio: "S/.110",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.102",
+            precio: "S/.110",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.105",
+            precio: "S/.113",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.105",
+            precio: "S/.113",
           },
           {
             id: "5",
             talla: "10",
-            precio: "S/.110",
+            precio: "S/.118",
           },
           {
             id: "6",
             talla: "12",
-            precio: "S/.110",
+            precio: "S/.118",
           },
           {
             id: "7",
             talla: "14",
-            precio: "S/.110",
+            precio: "S/.123",
           },
           {
             id: "8",
             talla: "16",
-            precio: "S/.115",
+            precio: "S/.123",
           },
         ],
       },
@@ -2472,42 +2472,42 @@ export default function TiendaDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.100",
+            precio: "S/.105",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.100",
+            precio: "S/.105",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.100",
+            precio: "S/.110",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.100",
+            precio: "S/.110",
           },
           {
             id: "5",
             talla: "10",
-            precio: "S/.105",
+            precio: "S/.115",
           },
           {
             id: "6",
             talla: "12",
-            precio: "S/.105",
+            precio: "S/.115",
           },
           {
             id: "7",
             talla: "14",
-            precio: "S/.110",
+            precio: "S/.120",
           },
           {
             id: "8",
             talla: "16",
-            precio: "S/.115",
+            precio: "S/.120",
           },
         ],
       },
@@ -2805,8 +2805,12 @@ export default function TiendaDetails({ id, name, cantidad }) {
   };
 
   function mostrarTituloRadio(valor) {
-    //console.log(valor);
+    //console.log("Hola");
     setRadio(valor);
+
+    //console.log(grupo);
+    //console.log(params.valorAbsoluto);
+
     setTitulo("");
     //console.log(costo);
     setPrecioUnico("");
