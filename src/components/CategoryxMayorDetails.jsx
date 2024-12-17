@@ -421,7 +421,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.0",
+            precio: "S/.34",
           },
           {
             id: "2",
@@ -468,7 +468,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.0",
+            precio: "S/.34",
           },
           {
             id: "2",
@@ -706,42 +706,42 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.31",
+            precio: "S/.33",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.31",
+            precio: "S/.33",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.31",
+            precio: "S/.33",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.31",
+            precio: "S/.33",
           },
           {
             id: "5",
             talla: "10",
-            precio: "S/.32",
+            precio: "S/.34",
           },
           {
             id: "6",
             talla: "12",
-            precio: "S/.32",
+            precio: "S/.34",
           },
           {
             id: "7",
             talla: "14",
-            precio: "S/.0",
+            precio: "S/.34",
           },
           {
             id: "8",
             talla: "16",
-            precio: "S/.0",
+            precio: "S/.35",
           },
         ],
       },
@@ -753,7 +753,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.0",
+            precio: "S/.34",
           },
           {
             id: "2",
@@ -800,7 +800,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.0",
+            precio: "S/.35",
           },
           {
             id: "2",
@@ -1093,7 +1093,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.0",
+            precio: "S/.34",
           },
           {
             id: "2",
@@ -1140,7 +1140,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.0",
+            precio: "S/.34",
           },
           {
             id: "2",
@@ -1181,7 +1181,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       },
       {
         id: "9",
-        grupo: "5",
+        grupo: "4",
         subgrupo: "9",
         details: [
           {
@@ -1717,42 +1717,42 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.44",
+            precio: "S/.83",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.44",
+            precio: "S/.83",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.44",
+            precio: "S/.83",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.44",
+            precio: "S/.83",
           },
           {
             id: "5",
             talla: "10",
-            precio: "S/.0",
+            precio: "S/.87",
           },
           {
             id: "6",
             talla: "12",
-            precio: "S/.0",
+            precio: "S/.87",
           },
           {
             id: "7",
             talla: "14",
-            precio: "S/.0",
+            precio: "S/.87",
           },
           {
             id: "8",
             talla: "16",
-            precio: "S/.0",
+            precio: "S/.94",
           },
         ],
       },
@@ -2046,42 +2046,42 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "1",
             talla: "2",
-            precio: "S/.81",
+            precio: "S/.83",
           },
           {
             id: "2",
             talla: "4",
-            precio: "S/.81",
+            precio: "S/.83",
           },
           {
             id: "3",
             talla: "6",
-            precio: "S/.81",
+            precio: "S/.83",
           },
           {
             id: "4",
             talla: "8",
-            precio: "S/.81",
+            precio: "S/.83",
           },
           {
             id: "5",
             talla: "10",
-            precio: "S/.85",
+            precio: "S/.87",
           },
           {
             id: "6",
             talla: "12",
-            precio: "S/.85",
+            precio: "S/.87",
           },
           {
             id: "7",
             talla: "14",
-            precio: "S/.85",
+            precio: "S/.87",
           },
           {
             id: "8",
             talla: "16",
-            precio: "S/.92",
+            precio: "S/.94",
           },
         ],
       },
@@ -2849,7 +2849,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
       }
     } else {
       if (params.sexo == 1) {
-        console.log("entro aki");
+        //console.log("entro aki");
         if (valor == 3) {
           document.getElementById("idpos").innerText = "No Disponible";
           document.getElementById("idtallas").style.visibility = "hidden";
@@ -2866,9 +2866,27 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           //document.getElementById("idCarrito").style.visibility = "visible";
         }
       } else {
-        document.getElementById("idmensaje").innerText = "";
-        document.getElementById("idcosto").innerText = "";
-        document.getElementById("idpos").innerText = "";
+        if (grupo == 2) {
+          if (valor == 3) {
+            document.getElementById("idpos").innerText = "No Disponible";
+            document.getElementById("idtallas").style.visibility = "hidden";
+            document.getElementById("idcosto").innerText = "";
+            document.getElementById("idCarrito").style.visibility = "hidden";
+            document.getElementById("idmensaje").innerText = "";
+          } else {
+            document.getElementById("idcosto").innerText = "";
+            document.getElementById("idpos").innerText = "";
+            document.getElementById("idtallas").style.visibility = "visible";
+            document.getElementById("idCarrito").style.visibility = "visible";
+            document.getElementById("idmensaje").innerText = "";
+          }
+        } else {
+          document.getElementById("idcosto").innerText = "";
+          document.getElementById("idpos").innerText = "";
+          document.getElementById("idtallas").style.visibility = "visible";
+          document.getElementById("idCarrito").style.visibility = "visible";
+          document.getElementById("idmensaje").innerText = "";
+        }
       }
     }
     //document.getElementById("idcosto").innerText = "No Disponible";
@@ -3510,7 +3528,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         status: "delivery",
         productName: "Casaca Jeans sin Capucha ",
         href: "#",
-        imageSrc: "https://i.postimg.cc/xjxxNXV6/casaca-subcategoria-01.png",
+        imageSrc: "https://i.postimg.cc/FKY0YV3Z/casaca-subcategoria-03.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
@@ -5238,7 +5256,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Camisa Jeans Strech",
+        productName: "Camisa Jean",
         href: "#",
         imageSrc: "https://i.postimg.cc/ZqBSRG78/Camisa-Jeans-Strech-01.png",
         imageAlt:
@@ -5384,7 +5402,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         status: "delivery",
         productName: "Overol Short Jeans ",
         href: "#",
-        imageSrc: "https://i.postimg.cc/xdVzq8X3/Overol-Short-Jeans-01.png",
+        imageSrc: "https://i.postimg.cc/2SdZqjQJ/Overol-Short-01.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
@@ -6310,7 +6328,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         status: "delivery",
         productName: "Casaca Drill",
         href: "#",
-        imageSrc: "https://i.postimg.cc/dQR5GC2Q/Casaca-drill-nina-01.png",
+        imageSrc: "https://i.postimg.cc/4NSVc4SN/Casaca-drill-nina-02.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
@@ -7076,7 +7094,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
 
       {
         id: "9",
-        grupo: 5,
+        grupo: 4,
         color: 0,
         date: "July 12, 2021",
         datetime: "2021-07-12",
@@ -7095,7 +7113,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             description: `Conjunto Overol`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
             formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "5",
+            grupo: "4",
             subgrupo: "1",
             sexo: "nina",
             href: "#",
@@ -7126,7 +7144,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             description: `Conjunto Overol`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
             formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "5",
+            grupo: "4",
             subgrupo: "1",
             sexo: "nina",
             href: "#",
@@ -7157,7 +7175,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             description: `Conjunto Overol`,
             formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
             formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "5",
+            grupo: "4",
             subgrupo: "1",
             sexo: "nina",
             href: "#",
@@ -7739,7 +7757,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Conjunto Pantalon Clasico sin Capucha ",
+        productName: "Conjunto Pantalon Clasico",
         href: "#",
         imageSrc:
           "https://i.postimg.cc/8Pm63bg6/Conjunto-Clasico-Pantalon-Blanco-01.png",
@@ -8004,343 +8022,6 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           },
         ],
       },
-      {
-        id: "6",
-        grupo: 2,
-        color: 1,
-        date: "July 12, 2021",
-        datetime: "2021-07-12",
-        status: "delivery",
-        productName: "Conjunto Pantalon con Capucha ",
-        href: "#",
-        imageSrc:
-          "https://i.postimg.cc/y8Hdw7gd/Conjunto-Pantalon-Beige-01.png",
-        imageAlt:
-          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
-        details: [
-          {
-            id: "1",
-            op: "1",
-            name: "Conjunto Pantalon Forro Beige (Negro)",
-            codigo: "Codigo",
-            description: `Conjunto Pantalon`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "2",
-            subgrupo: "2",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/y8Hdw7gd/Conjunto-Pantalon-Beige-01.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          {
-            id: "2",
-            op: "1",
-            name: "Conjunto Pantalon Forro Beige (Celeste)",
-            codigo: "Codigo",
-            description: `Conjunto Pantalon`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "2",
-            subgrupo: "2",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/Tw756B8s/Conjunto-Pantalon-Beige-02.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          {
-            id: "3",
-            op: "1",
-            name: "Conjunto Pantalon Forro Beige (Moteado)",
-            codigo: "Codigo",
-            description: `Conjunto Pantalon`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "2",
-            subgrupo: "2",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/bNjgF2T2/Conjunto-Pantalon-Beige-03.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          {
-            id: "4",
-            op: "1",
-            name: "Conjunto Pantalon Forro Beige(Maiz)",
-            codigo: "Codigo",
-            description: `Conjunto Pantalon`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "2",
-            subgrupo: "2",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/gjRWc6XZ/Conjunto-Pantalon-Beige-04.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          {
-            id: "5",
-            op: "1",
-            name: "Conjunto Pantalon Forro Beige(Cristal)",
-            codigo: "Codigo",
-            description: `Conjunto Pantalon`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "2",
-            subgrupo: "2",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/tCNgFLJV/Conjunto-Pantalon-Beige-05.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          //
-          {
-            id: "6",
-            op: "2",
-            name: "Conjunto Pantalon Forro Blanco (Celeste)",
-            codigo: "Codigo",
-            description: `Conjunto Pantalon`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "2",
-            subgrupo: "2",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/8cXgHQJT/Conjunto-Pantalon-Blanco-01.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          {
-            id: "7",
-            op: "2",
-            name: "Conjunto Pantalon Forro Blanco (Negro)",
-            codigo: "Codigo",
-            description: `Conjunto Pantalon`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "2",
-            subgrupo: "2",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/x10FdFcR/Conjunto-Pantalon-Blanco-02.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          {
-            id: "8",
-            op: "2",
-            name: "Conjunto Pantalon Forro Blanco (Maiz)",
-            codigo: "Codigo",
-            description: `Conjunto Pantalon`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "2",
-            subgrupo: "2",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/DZ2zphZG/Conjunto-Pantalon-Blanco-03.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          {
-            id: "9",
-            op: "2",
-            name: "Conjunto Pantalon Forro Blanco(Cristal)",
-            codigo: "Codigo",
-            description: `Conjunto Pantalon`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "2",
-            subgrupo: "2",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/5yXbD2MX/Conjunto-Pantalon-Blanco-04.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-          {
-            id: "10",
-            op: "2",
-            name: "Conjunto Pantalon Forro Blanco(Moteado)",
-            codigo: "Codigo",
-            description: `Conjunto Pantalon`,
-            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
-            formato2: "Tallas (10,12) Precio x Mayor S/.40",
-            grupo: "2",
-            subgrupo: "2",
-            sexo: "nino",
-            href: "#",
-            imageSrc:
-              "https://i.postimg.cc/850VdgrN/Conjunto-Pantalon-Blanco-05.png",
-            imageAlt:
-              "Models sitting back to back, wearing Basic Tee in black and bone.",
-            anidado: [
-              {
-                id: "1",
-                name: "Caracteristicas",
-                items: [
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                  "- Caracteristicas 1",
-                ],
-              },
-              // More sections...
-            ],
-          },
-        ],
-      },
 
       {
         id: "8",
@@ -8349,7 +8030,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Conjunto Pantalon Drill con Capucha ",
+        productName: "Conjunto Pantalon Drill",
         href: "#",
         imageSrc:
           "https://i.postimg.cc/PrtpbTMf/conjunto-pantalon-drill-02.png",
@@ -8558,7 +8239,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Conjunto Clasico Pantalon Cargo sin Capucha  ",
+        productName: "Conjunto Clasico Pantalon Cargo ",
         href: "#",
         imageSrc: "https://i.postimg.cc/Sssr9J91/Conjunto-Clasico-Beige-01.png",
         imageAlt:
@@ -8768,7 +8449,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Conjunto Pantalon Cargo  con Capucha",
+        productName: "Conjunto Pantalon Cargo ",
         href: "#",
         imageSrc:
           "https://i.postimg.cc/Vkvz6YKt/conjunto-pantalon-cargo-03.png",
@@ -9042,7 +8723,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Conjunto Pantalon Jogger con Capucha",
+        productName: "Conjunto Pantalon Jogger",
         href: "#",
         imageSrc:
           "https://i.postimg.cc/gJmGDYkg/conjunto-pantalon-jogger-02.png",
@@ -9249,7 +8930,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Conjunto Pantalon Clasico con Capucha",
+        productName: "Conjunto Pantalon ",
         href: "#",
         imageSrc:
           "https://i.postimg.cc/bNyTg508/conjunto-pantalon-clasico-08.png",
@@ -9523,7 +9204,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Conjunto Pantalon Cargo sin Forro",
+        productName: "Conjunto Pantalon Cargo (Sin Forro)",
         href: "#",
         imageSrc:
           "https://i.postimg.cc/MKW0Z4BP/conjunto-pantalon-cargo-sinforro-01.png",
@@ -9702,7 +9383,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         date: "July 12, 2021",
         datetime: "2021-07-12",
         status: "delivery",
-        productName: "Conjunto Pantalon  sin Forro",
+        productName: "Conjunto Pantalon (Sin Forro)",
         href: "#",
         imageSrc:
           "https://i.postimg.cc/DwQfnY7y/conjunto-pantalon-sinforro-01.png",
@@ -11588,8 +11269,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
         status: "delivery",
         productName: "Conjunto Pantalon Clasico ",
         href: "#",
-        imageSrc:
-          "https://i.postimg.cc/dVKj6n9h/Conjunto-Pantalon-Nina-Forro-01.png",
+        imageSrc: "https://i.postimg.cc/1z8SkSck/c1.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
@@ -12069,9 +11749,40 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
               // More sections...
             ],
           },
-          //////////
           {
             id: "3",
+            op: "1",
+            name: "Conjunto Pantalon Cargo con Forro Rosado (Moteado)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "2",
+            sexo: "nina",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/Kv84hY28/rosado-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          //////////
+          {
+            id: "4",
             op: "2",
             name: "Conjunto Pantalon Cargo con Forro Blanco (Moteado)",
             codigo: "Codigo",
@@ -12084,6 +11795,68 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
             href: "#",
             imageSrc:
               "https://i.postimg.cc/tRt74hQn/Conjunto-panta-cargo-nina-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "5",
+            op: "2",
+            name: "Conjunto Pantalon Cargo con Forro Blanco (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "2",
+            sexo: "nina",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/mgkCbw7J/blanco-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "6",
+            op: "2",
+            name: "Conjunto Pantalon Cargo con Forro Blanco (Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto Pantalon`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "2",
+            subgrupo: "2",
+            sexo: "nina",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/85p1Sy6r/blanco-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
