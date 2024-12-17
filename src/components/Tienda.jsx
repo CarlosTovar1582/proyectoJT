@@ -148,7 +148,7 @@ const Categoryproductsf = [
   },
   {
     id: 4,
-    name: "Overol Short",
+    name: "Short",
     href: "#",
     sexo: 2,
     valorAbsoluto: 1,
@@ -158,7 +158,7 @@ const Categoryproductsf = [
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
-  {
+  /*{
     id: 5,
     name: "JUMPPER",
     href: "#",
@@ -169,7 +169,7 @@ const Categoryproductsf = [
     imageSrc: "https://i.postimg.cc/D0Nvq0fR/overol-falda-01.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
-  },
+  },*/
 ];
 const Categoryproductsmc = [
   {
@@ -244,8 +244,7 @@ const Categoryproductsfc = [
     valorAbsoluto: 2,
     tallas: "2 4 6 8 10 12 14 16",
     description: "",
-    imageSrc:
-      "https://i.postimg.cc/dVKj6n9h/Conjunto-Pantalon-Nina-Forro-01.png",
+    imageSrc: "https://i.postimg.cc/1z8SkSck/c1.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
