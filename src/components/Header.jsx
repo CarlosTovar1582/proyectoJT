@@ -77,10 +77,10 @@ export default function Header() {
   return (
     <header className="bg-black ">
       <div className="grid grid-cols-4 gap-0 text-black   ">
-        <div className="col-span-3 lg:col-span-2 content-center ... pl-4 md:pl-4 ">
+        <div className="col-span-3 lg:col-span-2 content-center ...  md:pl-4 ">
           <img
             src="https://i.postimg.cc/Hxbq6RFF/LOGO-TOVAR.png"
-            className="rounded-2xl object-fill "
+            className="rounded-2xl object-cover  "
             alt="Flowbite Logo"
           />
         </div>
@@ -133,7 +133,7 @@ export default function Header() {
           <div className="grid grid-cols-6  h-full  lg:hidden">
             <div
               className="lg:hidden flex items-center justify-end   content-end ... pb-6  
-                col-span-6  w-full"
+                col-span-6  w-full "
             >
               <button
                 type="button"
