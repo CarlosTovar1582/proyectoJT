@@ -651,6 +651,53 @@ export default function TiendaDetails({ id, name, cantidad }) {
           },
         ],
       },
+      {
+        id: "17",
+        grupo: "4",
+        subgrupo: "17",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.45",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.45",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.45",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.45",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.45",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.45",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.45",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.45",
+          },
+        ],
+      },
       //OVEROL SHORT//-----------------------------
       {
         id: "13",
@@ -2509,6 +2556,195 @@ export default function TiendaDetails({ id, name, cantidad }) {
             id: "8",
             talla: "16",
             precio: "S/.115",
+          },
+        ],
+      },
+      ////
+      {
+        id: "23",
+        grupo: "3",
+        subgrupo: "23",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.85",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.85",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.85",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.85",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.90",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.90",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.90",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.95",
+          },
+        ],
+      },
+      {
+        id: "24",
+        grupo: "3",
+        subgrupo: "24",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.83",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.83",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.83",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.83",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.85",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.85",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.85",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.90",
+          },
+        ],
+      },
+      {
+        id: "25",
+        grupo: "3",
+        subgrupo: "25",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.83",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.83",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.83",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.83",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.85",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.85",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.85",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.90",
+          },
+        ],
+      },
+      {
+        id: "26",
+        grupo: "4",
+        subgrupo: "26",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.130",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.130",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.130",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.130",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.135",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.135",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.135",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.140",
           },
         ],
       },
@@ -5267,7 +5503,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
         status: "delivery",
         productName: "Camisa Jean",
         href: "#",
-        imageSrc: "https://i.postimg.cc/ZqBSRG78/Camisa-Jeans-Strech-01.png",
+        imageSrc: "https://i.postimg.cc/T104DByQ/caminsa-01.png",
         imageAlt:
           "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
         details: [
@@ -5283,8 +5519,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nino",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/ZqBSRG78/Camisa-Jeans-Strech-01.png",
+            imageSrc: "https://i.postimg.cc/T104DByQ/caminsa-01.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -5315,8 +5550,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nino",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/HsY15cvs/Camisa-Jeans-Strech-02.png",
+            imageSrc: "https://i.postimg.cc/SxJvnTm7/caminsa-02.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -5347,8 +5581,7 @@ export default function TiendaDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nino",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/wBsCHhMF/Camisa-Jeans-Strech-03.png",
+            imageSrc: "https://i.postimg.cc/cJ3kmvgv/caminsa-03.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -5379,8 +5612,54 @@ export default function TiendaDetails({ id, name, cantidad }) {
             subgrupo: "1",
             sexo: "nino",
             href: "#",
-            imageSrc:
-              "https://i.postimg.cc/W3YgnJ6L/Camisa-Jeans-Strech-04.png",
+            imageSrc: "https://i.postimg.cc/ZRh7DJpV/caminsa-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
+      ////
+      {
+        id: "17",
+        grupo: 4,
+        color: 0,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Camisa Pimanila (GOLDPEACH)",
+        href: "#",
+        imageSrc: "https://i.postimg.cc/bv6018LZ/camisas-OD.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: 0,
+            name: "Camisa Pimanila (GOLDPEACH)",
+            codigo: "Codigo",
+            description: `Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "4",
+            subgrupo: "1",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/bv6018LZ/camisas-OD.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
@@ -10108,6 +10387,502 @@ export default function TiendaDetails({ id, name, cantidad }) {
           },
         ],
       },
+      //////
+      {
+        id: "23",
+        grupo: 3,
+        color: 0,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Conjunto Camisa GOLDPEACH + Bermuda niño cargo ",
+        href: "#",
+        imageSrc:
+          "https://i.postimg.cc/d1QLJyKX/GOLDPEACH-BERMUDANI-OCARGO-01.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: 0,
+            name: "Conjunto Camisa GOLDPEACH + Bermuda niño cargo (Maiz)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/d1QLJyKX/GOLDPEACH-BERMUDANI-OCARGO-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: 0,
+            name: "Conjunto Camisa GOLDPEACH + Bermuda niño cargo  (Moteado)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/d10tbc2c/GOLDPEACH-BERMUDANI-OCARGO-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: 0,
+            name: "Conjunto Camisa GOLDPEACH + Bermuda niño cargo (Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/tT171HYt/GOLDPEACH-BERMUDANI-OCARGO-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "4",
+            op: 0,
+            name: "Conjunto Camisa GOLDPEACH + Bermuda niño cargo (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/dtFtFCm9/GOLDPEACH-BERMUDANI-OCARGO-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
+      {
+        id: "24",
+        grupo: 3,
+        color: 0,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Conjunto Camisa GOLDPEACH + Bermuda niño ",
+        href: "#",
+        imageSrc: "https://i.postimg.cc/bwjVYQm3/GOLDPEACH-BERMUDANI-O-02.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: 0,
+            name: "Conjunto Camisa GOLDPEACH + Bermuda niño (Maiz)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/bwjVYQm3/GOLDPEACH-BERMUDANI-O-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: 0,
+            name: "Conjunto Camisa GOLDPEACH + Bermuda niño (Moteado)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/hjhpZMGP/GOLDPEACH-BERMUDANI-O-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: 0,
+            name: "Conjunto Camisa GOLDPEACH + Bermuda niño (Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/C5qJS1D3/GOLDPEACH-BERMUDANI-O-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "4",
+            op: 0,
+            name: "Conjunto Camisa GOLDPEACH + Bermuda niño (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/RZ9Gxv0Y/GOLDPEACH-BERMUDANI-O-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
+      {
+        id: "25",
+        grupo: 3,
+        color: 0,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Conjunto Camisa GOLDPEACH + Short Tafeta Cargo",
+        href: "#",
+        imageSrc:
+          "https://i.postimg.cc/xjzW0T0j/GOLDPEACH-BERMUDANI-OTAFETACARGO-01.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: 0,
+            name: "Conjunto Camisa GOLDPEACH + Short Tafeta Cargo (Negro)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/xjzW0T0j/GOLDPEACH-BERMUDANI-OTAFETACARGO-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: 0,
+            name: "Conjunto Camisa GOLDPEACH + Short Tafeta Cargo (Rojo)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/pdS6H34n/GOLDPEACH-BERMUDANI-OTAFETACARGO-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: 0,
+            name: "Conjunto Camisa GOLDPEACH + Short Tafeta Cargo (Hueso)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/xdBt7MNv/GOLDPEACH-BERMUDANI-OTAFETACARGO-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "4",
+            op: 0,
+            name: "Conjunto Camisa GOLDPEACH + Short Tafeta Cargo (Beige)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/59Bn7H4z/GOLDPEACH-BERMUDANI-OTAFETACARGO-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "5",
+            op: 0,
+            name: "Conjunto Camisa GOLDPEACH + Short Tafeta Cargo (Verde)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/L8cPFTv8/GOLDPEACH-BERMUDANI-OTAFETACARGO-05.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "6",
+            op: 0,
+            name: "Conjunto Camisa GOLDPEACH + Short Tafeta Cargo (Azul Noche)",
+            codigo: "Codigo",
+            description: `Conjunto Camisa`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "3",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc:
+              "https://i.postimg.cc/SKVmfQXb/GOLDPEACH-BERMUDANI-OTAFETACARGO-06.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
       ////////////////
       {
         id: "17",
@@ -10627,6 +11402,146 @@ export default function TiendaDetails({ id, name, cantidad }) {
             sexo: "nino",
             href: "#",
             imageSrc: "https://i.postimg.cc/W3gTjBDB/3piezas-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
+      ////
+      {
+        id: "26",
+        grupo: 4,
+        color: 0,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Conjunto 3 Piezas Pantalon Clasico sin Forro (3 Piezas) ",
+        href: "#",
+        imageSrc: "https://i.postimg.cc/50dLM34m/3piezas-NUEVOS-01.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: 0,
+            name: "Conjunto 3 Piezas Pantalon Clasico sin Forro  (Moteado)",
+            codigo: "Codigo",
+            description: `Conjunto 3 Piezas`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "4",
+            subgrupo: "1",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/50dLM34m/3piezas-NUEVOS-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: 0,
+            name: "Conjunto 3 Piezas Pantalon Clasico sin Forro (Maiz)",
+            codigo: "Codigo",
+            description: `Conjunto 3 Piezas`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "4",
+            subgrupo: "1",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/hjXDpWWy/3piezas-NUEVOS-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: 0,
+            name: "Conjunto 3 Piezas Pantalon Clasico sin Forro (Cristal)",
+            codigo: "Codigo",
+            description: `Conjunto 3 Piezas`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "4",
+            subgrupo: "1",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/6qdNmBH0/3piezas-NUEVOS-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "4",
+            op: "1",
+            name: "Conjunto 3 Piezas Pantalon Clasico sin Forro (Celeste)",
+            codigo: "Codigo",
+            description: `Conjunto 3 Piezas`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "4",
+            subgrupo: "1",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/y8fC5QTw/3piezas-NUEVOS-04.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
