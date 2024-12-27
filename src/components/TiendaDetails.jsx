@@ -888,6 +888,53 @@ export default function TiendaDetails({ id, name, cantidad }) {
           },
         ],
       },
+      {
+        id: "18",
+        grupo: "6",
+        subgrupo: "18",
+        details: [
+          {
+            id: "1",
+            talla: "2",
+            precio: "S/.55",
+          },
+          {
+            id: "2",
+            talla: "4",
+            precio: "S/.55",
+          },
+          {
+            id: "3",
+            talla: "6",
+            precio: "S/.55",
+          },
+          {
+            id: "4",
+            talla: "8",
+            precio: "S/.55",
+          },
+          {
+            id: "5",
+            talla: "10",
+            precio: "S/.60",
+          },
+          {
+            id: "6",
+            talla: "12",
+            precio: "S/.60",
+          },
+          {
+            id: "7",
+            talla: "14",
+            precio: "S/.60",
+          },
+          {
+            id: "8",
+            talla: "16",
+            precio: "S/.65",
+          },
+        ],
+      },
     ],
   };
   const TallasSeleccionf = {
@@ -6285,6 +6332,208 @@ export default function TiendaDetails({ id, name, cantidad }) {
             href: "#",
             imageSrc:
               "https://i.postimg.cc/KjwmHv3L/bermuda-jeans-Cargo-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+        ],
+      },
+      {
+        id: "18",
+        grupo: 6,
+        color: 0,
+        date: "July 12, 2021",
+        datetime: "2021-07-12",
+        status: "delivery",
+        productName: "Short Tafeta cargo de niño",
+        href: "#",
+        imageSrc: "https://i.postimg.cc/W1S5Ttty/shorttafeta-cargo-01.png",
+        imageAlt:
+          "Black fabric shoe bag with zipper around 3 sides, holding pair of white sneakers.",
+        details: [
+          {
+            id: "1",
+            op: 0,
+            name: "Short Tafeta cargo de niño (Rojo)",
+            codigo: "Codigo",
+            description: `Short`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "6",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            //https://i.postimg.cc/rmT0fg2c/bermuda-jeans-Cargo-01.png
+            imageSrc: "https://i.postimg.cc/W1S5Ttty/shorttafeta-cargo-01.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "2",
+            op: 0,
+            name: "Short Tafeta cargo de niño (Hueso)",
+            codigo: "Codigo",
+            description: `Short`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "6",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/W3q8GnSR/shorttafeta-cargo-02.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "3",
+            op: 0,
+            name: "Short Tafeta cargo de niño (Beige)",
+            codigo: "Codigo",
+            description: `Short`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "6",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/VL8gtXCT/shorttafeta-cargo-03.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "4",
+            op: 0,
+            name: "Short Tafeta cargo de niño (Negro)",
+            codigo: "Codigo",
+            description: `Short`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "6",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/3xLFz6c5/shorttafeta-cargo-04.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "5",
+            op: 0,
+            name: "Short Tafeta cargo de niño (Azul Noche)",
+            codigo: "Codigo",
+            description: `Short`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "6",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/q7SXvKr1/shorttafeta-cargo-05.png",
+            imageAlt:
+              "Models sitting back to back, wearing Basic Tee in black and bone.",
+            anidado: [
+              {
+                id: "1",
+                name: "Caracteristicas",
+                items: [
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                  "- Caracteristicas 1",
+                ],
+              },
+              // More sections...
+            ],
+          },
+          {
+            id: "6",
+            op: 0,
+            name: "Short Tafeta cargo de niño (Verde)",
+            codigo: "Codigo",
+            description: `Short`,
+            formato1: "Tallas (2,4,6,8) Precio x Mayor S/.38",
+            formato2: "Tallas (10,12) Precio x Mayor S/.40",
+            grupo: "6",
+            subgrupo: "3",
+            sexo: "nino",
+            href: "#",
+            imageSrc: "https://i.postimg.cc/J0cbxdkF/shorttafeta-cargo-06.png",
             imageAlt:
               "Models sitting back to back, wearing Basic Tee in black and bone.",
             anidado: [
