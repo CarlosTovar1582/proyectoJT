@@ -2552,7 +2552,7 @@ export default function CategoryxMayorDetails({ id, name, cantidad }) {
           {
             id: "8",
             talla: "16",
-            precio: "S/.72",
+            precio: "S/.71",
           },
         ],
       },
